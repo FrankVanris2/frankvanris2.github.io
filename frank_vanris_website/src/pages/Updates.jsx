@@ -9,6 +9,11 @@ const Updates = () => {
             <p>Currently I've been working on several projects ranging from work to personal. Along with extra curricular projects, 
                 Today I have been working on some work related projects [CLASSIFIED] and some personal projects regarding my website.
             </p>
+            <p></p>
+            <h2>Update 2 -- 23/12/2025</h2>
+            <p> Today I am still working on my website I migrated my current setup to React Vite, since it is a lot more modern. Compared to regular
+                React App. So I made the shift so that I can develop in a faster and more clean environment.
+            </p>
         </div>
     );
 }
