@@ -18,20 +18,31 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+
       - name: Set up Node
         uses: actions/setup-node@v4
         with:
           node-version: 20
+
       - name: Install dependencies
+        # This tells GitHub to 'cd docs' before running npm install
         run: npm install
+        working-directory: ./docs
+
       - name: Build
+        # This tells GitHub to 'cd docs' before running npm run build
         run: npm run build
+        working-directory: ./docs
+
       - name: Setup Pages
         uses: actions/configure-pages@v4
+
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: './dist'
+          # Crucial: The build output (dist) is now inside the docs folder
+          path: './docs/dist'
+
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
