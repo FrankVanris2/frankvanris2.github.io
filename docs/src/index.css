@@ -5,6 +5,26 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background: #0b0f1a;
+}
+
+:root {
+  --bg: #0b0f1a;
+  --accent: #39ffca;
+  --accent-2: #00aaff;
+  --muted: #9aa6b2;
+}
+
+h1, h2, h3 {
+  color: var(--accent);
+  font-family: 'Segoe UI Mono','Roboto Mono',Menlo,monospace;
+  text-shadow: 0 0 8px rgba(57,255,202,0.6);
+}
+
+p, li {
+  color: var(--muted);
+  font-family: 'Segoe UI Mono','Roboto Mono',Menlo,monospace;
+  line-height: 1.6;
 }
 
 code {

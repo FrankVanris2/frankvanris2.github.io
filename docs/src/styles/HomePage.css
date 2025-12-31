@@ -1,7 +1,18 @@
+:root{
+    --bg:#0b0f1a;
+    --accent:#39ffca;
+    --accent-2:#00aaff;
+    --muted:#9aa6b2;
+}
+
 .home-container {
     max-width: 1200px;
     margin: 0 auto;
     padding: 20px;
+    font-family: 'Segoe UI Mono','Roboto Mono',Menlo,monospace;
+    color: var(--accent);
+    background: var(--bg);
+    min-height: 100vh;
 }
 
 .hero-section {
@@ -11,13 +22,48 @@
     margin-bottom: 40px;
 }
 
-.profile-image {
+.profile-box {
     width: 200px;
     height: 200px;
-    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(180deg, rgba(255,255,255,0.02), rgba(0,0,0,0.15));
+    border: 1px solid rgba(57,255,202,0.10);
+    border-radius: 6px;
+    box-shadow: inset 0 -2px 8px rgba(0,0,0,0.6), 0 0 12px rgba(57,255,202,0.03);
+}
+
+.profile-image {
+    width: 100%;
+    height: 100%;
     object-fit: cover;
+    border-radius: 6px;
 }
 
 .intro-text {
     flex: 1;
+}
+
+.hero-title {
+    font-size: 1.5rem;
+    color: var(--accent);
+    font-weight: 700;
+    letter-spacing: 0.06em;
+    margin-bottom: 1rem;
+    text-shadow: 0 0 8px rgba(57,255,202,0.6);
+}
+
+.hero-subtitle, .hero-note, .hero-work-in-progress {
+    color: var(--muted);
+    line-height: 1.6;
+}
+
+.intentions-section, .coming-soon-section {
+    margin-bottom: 40px;
+}
+
+.intentions-section p, .coming-soon-section p {
+    color: var(--muted);
+    line-height: 1.6;
 }
