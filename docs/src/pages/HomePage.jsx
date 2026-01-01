@@ -48,16 +48,13 @@ function HomePage()  {
                     <p>
                         While working on the capstone project "FollowBot" with a team of four, we were 
                         nominated for the Computer Vision Project Expo. We were unsure if we would receive 
-                        an award, but on January 15th, 2025, we were named winners of the  
-                        <strong>Most Promising Innovation</strong> award. It was a complete shock to us all, 
+                        an award, but on January 15th, 2025, we were named winners of the <strong>Most Promising Innovation</strong> award. It was a complete shock to us all, 
                         and I am incredibly proud of our team for this accomplishment.
                     </p>
                     <p>
                         Enabling our robot to follow a user based on YOLO was one of the most challenging 
                         aspects of the project. Although we didn't finalize the feature, we established a 
-                        strong foundation for future developers to build upon. Check out 
-                         <a href="https://app.readytensor.ai/publications/following-mechanics-with-our-yolo-model-hdKQGDqLbZsZ" target="_blank" rel="noopener noreferrer"> our publication</a> 
-                        on the topic; we can't wait to see what the future holds for this fantastic technology.
+                        strong foundation for future developers to build upon. Check out <a href="https://app.readytensor.ai/publications/following-mechanics-with-our-yolo-model-hdKQGDqLbZsZ" target="_blank" rel="noopener noreferrer"> our publication</a> on the topic; we can't wait to see what the future holds for this fantastic technology.
                     </p>
                 </div>
                 
