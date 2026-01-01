@@ -66,7 +66,7 @@ function HomePage()  {
 
             {/* Coming Soon Section */}
             <section className="coming-soon-section">
-                <p>Articles and Updates coming soon...</p>
+                <p>Articles and Updates coming soon and more is to come...</p>
             </section>
         </div>
     );
