@@ -15,7 +15,7 @@ body {
   --muted: #9aa6b2;
 }
 
-h1, h2, h3 {
+h1, h2, h3, strong {
   color: var(--accent);
   font-family: 'Segoe UI Mono','Roboto Mono',Menlo,monospace;
   text-shadow: 0 0 8px rgba(57,255,202,0.6);
