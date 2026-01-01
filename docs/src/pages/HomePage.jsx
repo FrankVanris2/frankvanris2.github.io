@@ -56,7 +56,7 @@ function HomePage()  {
                         Enabling our robot to follow a user based on YOLO was one of the most challenging 
                         aspects of the project. Although we didn't finalize the feature, we established a 
                         strong foundation for future developers to build upon. Check out 
-                        <a href="https://app.readytensor.ai/publications/following-mechanics-with-our-yolo-model-hdKQGDqLbZsZ" target="_blank" rel="noopener noreferrer">our publication</a> 
+                         <a href="https://app.readytensor.ai/publications/following-mechanics-with-our-yolo-model-hdKQGDqLbZsZ" target="_blank" rel="noopener noreferrer"> our publication</a> 
                         on the topic; we can't wait to see what the future holds for this fantastic technology.
                     </p>
                 </div>
