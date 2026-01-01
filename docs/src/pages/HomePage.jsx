@@ -48,7 +48,7 @@ function HomePage()  {
                     <p>
                         While working on the capstone project "FollowBot" with a team of four, we were 
                         nominated for the Computer Vision Project Expo. We were unsure if we would receive 
-                        an award, but on January 15th, 2025, we were named winners of the 
+                        an award, but on January 15th, 2025, we were named winners of the  
                         <strong>Most Promising Innovation</strong> award. It was a complete shock to us all, 
                         and I am incredibly proud of our team for this accomplishment.
                     </p>
