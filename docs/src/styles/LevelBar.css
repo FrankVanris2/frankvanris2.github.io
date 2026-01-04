@@ -1,0 +1,55 @@
+.level-bar-container {
+    margin: 1rem 0;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.skill-name {
+    font-family: 'Segoe UI Mono', 'Roboto Mono', monospace;
+    color: var(--accent);
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+
+.level-bar {
+    display: flex;
+    gap: 0.2rem;
+    width: 100%;
+}
+
+.level-segment {
+    flex: 1;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 4px;
+    transition: all 0.3s ease;
+    position: relative;
+    overflow: hidden;
+    border: 1px solid rgba(57,255,202,0.2);
+}
+
+.level-segment.filled {
+    color: #000;
+    font-weight: bold;
+    box-shadow: 0 0 10px rgba(57,255,202,0.5);
+}
+
+.level-segment.empty {
+    color: var(--muted);
+    background: rgba(255,255,255,0.05);
+}
+
+.level-segment:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 15px rgba(57,255,202,0.3);
+}
+
+.level-label {
+    font-family: 'Segoe UI Mono', 'Roboto Mono', monospace;
+    font-size: 0.8rem;
+    z-index: 1;
+    position: relative;
+}
