@@ -23,6 +23,14 @@ const Updates = () => {
                 github pages. Anyways small progress today finally, tomorrow I'll see if I can stylize the front page. (AGAIN) I am not really a front end person
                 so don't expect any crazy fancy stuff. I will most likely ask gpt to make things stylish while I focus more on the mechanics of this website.S
             </p>
+            <p></p>
+            <h2>Update 4 -- 06/01/2026</h2>
+            <p> Happy New Year! what an eventful 2025, I have to admit it's crazy what has happened during my final year at Bellevue College, and now I am in the Netherlands 
+                pursuing a technical job that fits my skill set. Overall I am very excited for what 2026 has to offer. These past couple of days have been busy, especially with 
+                this website. I finally got to working on the about me page, experience page and finally the Projects page (which I am still doing). Overall I'm making some decent 
+                progress on this website, and I plan to keep goint at it bit by bit. I hope to finish this website as soon as possible. I have a lot of future projects that I would 
+                really like to do.
+            </p>
         </div>
     );
 }

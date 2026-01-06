@@ -1,0 +1,33 @@
+:root{
+    --bg:#0b0f1a;
+    --accent:#39ffca;
+    --accent-2:#00aaff;
+    --muted:#9aa6b2;
+}
+
+.projects-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: 'Segoe UI Mono','Roboto Mono',Menlo,monospace;
+    color: var(--accent);
+    background: var(--bg);
+    min-height: 100vh;
+}
+
+.projects-container h1 {
+    font-size: 2rem;
+    color: var(--accent);
+    font-weight: 700;
+    letter-spacing: 0.06em;
+    margin-bottom: 1rem;
+    text-shadow: 0 0 8px rgba(57,255,202,0.6);
+    text-align: center;
+}
+
+.projects-container > p {
+    color: var(--muted);
+    line-height: 1.6;
+    text-align: center;
+    margin-bottom: 40px;
+}
