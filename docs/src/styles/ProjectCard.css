@@ -18,6 +18,46 @@
     border-radius: 8px;
     box-shadow: 0 0 20px rgba(57, 255, 202, 0.1);
     transition: box-shadow 0.3s ease;
+    animation: fadeIn 1s ease-in-out;
+}
+
+.tech-stack {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-bottom: 1rem;
+}
+
+.tech-tag {
+    background: rgba(57, 255, 202, 0.1);
+    border: 1px solid var(--accent);
+    color: var(--accent);
+    padding: 4px 10px;
+    border-radius: 4px;
+    font-size: 0.8rem;
+    font-weight: bold;
+}
+
+.read-more-btn {
+    background: none;
+    border: none;
+    color: var(--accent-2);
+    cursor: pointer;
+    font-family:inherit;
+    font-size: 0.9rem;
+    padding: 0;
+    margin-bottom: 1rem;
+    text-decoration: underline;
+    transition: color 0.2s ease;
+}
+
+.read-more-btn:hover {
+    color: var(--accent);
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(20px); }
+    to { opacity: 1; transform: translateY(0); }
 }
 
 .project-card:hover {
