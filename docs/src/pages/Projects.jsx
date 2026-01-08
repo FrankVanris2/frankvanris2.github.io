@@ -12,6 +12,13 @@ const Projects = () => {
     ];
     const followBotTechStack = ["ROS2", "C++", "Python", "YOLOv8", "Raspberry Pi", "Arduino", "React", "Flask", "OpenCV", "TensorFlow", "Fusion360", "FreeCAD", "Embedded Systems"];
 
+    // GadgetBuddy Specific elements
+    const GadgetBuddyDescription = [
+        "GadgetBuddy is a functional embedded device inspired by the PipBoy from the Fallout series, designed to bring practical survival tools into a real-world form factor. Over three months, you built a modular system that monitors temperature, humidity, air quality, time, and direction, all displayed across multiple navigable screens. The project emphasizes Test Driven Development, SOLID principles, and a flexible architecture that allows sensors and features to be swapped or extended with ease.",
+        "Although not every planned feature made it into the MVP; such as the radio module, rotary encoder, and full battery integration, the final device demonstrates strong embedded engineering practices and a solid foundation for future expansion. You also documented the system thoroughly to help other hobbyists continue development, making GadgetBuddy both a personal achievement and an open platform for ongoing innovation."
+    ];
+    const GadgetBuddyTechStack = ["Arduino Uno", "ESP32", "Platform IO", "C/C++", "I2C", "Embedded Systems", "Test-Driven Development (TDD)", "SOLID architecture", "Git/GitHub", "Wokwi Simulator", "Modular architecture"]
+
     return (
         <div className="projects-container">
             <h1>Projects</h1>
@@ -27,6 +34,17 @@ const Projects = () => {
                 links={[
                     { text: "FollowBot Legacy GitHub", url: "https://github.com/FrankVanris2/FollowBot_Legacy" },
                     { text: "ROS2 FollowBot Legacy GitHub", url: "https://github.com/FrankVanris2/ROS2_FollowBot_Legacy" }
+                ]}
+            />
+
+            <ProjectCard
+                title="GadgetBuddy"
+                tags={GadgetBuddyTechStack}
+                description={GadgetBuddyDescription}
+                imageSrc="/GadgetBuddy.jpeg"
+                alignment="right"
+                links={[
+                    { text: "GadgetBuddy Repo", url: "https://github.com/FrankVanris2/GadgetBuddy"}
                 ]}
             />
         </div>
