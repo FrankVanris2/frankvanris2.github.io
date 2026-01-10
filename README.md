@@ -2,8 +2,8 @@
 
 ### What this website will be about
 This website will be about me and everything I have done as a Student and Developer. This is also the first time I've done Github pages, so all of this is quite new to me.
-I am currently focusing my time on my capstone project that is around robotics, so I will be posting  things related around my robotics projects. Along with my personal 
-projects.
+I just finished my Capstone project last year with my team and I am now officially working full-time with a company. I am now making this project a side project till I continue 
+working on some more robotics.
 
 ### What to expect
 You will expect to see a slow transition from this markdown file to a full fledge website. I absolutely do not have that much React experience, If you give me a bottle of wine 
