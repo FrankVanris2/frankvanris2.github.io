@@ -33,7 +33,7 @@ const Projects = () => {
             <p> The Following projects below showcase my skills and experience in various programming languages, frameworks, and tools. Each project highlights my ability to apply my knowledge to real-world scenarios and solve complex problems. Feel free to explore the projects to see the range of my capabilities and the quality of my work.
             </p>
 
-            <div className="current-project-section">
+            <div className="current-project-sections">
                 <h2 className="section-title">🚧 Project Currently Under Development</h2>
                 <ProjectCard
                     title="My Personal Website"
