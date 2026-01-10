@@ -31,3 +31,22 @@
     text-align: center;
     margin-bottom: 40px;
 }
+
+.section-title {
+    font-size: 1.8rem;
+    color: var(--accent-2);
+    font-weight: 700;
+    margin-bottom: 20px;
+    text-align: center;
+    text-shadow: 0 0 6px rgba(0, 170, 255, 0.6);
+}
+
+.current-project-section,
+.finalized-projects-section {
+    margin-bottom: 60px;
+    padding: 20px;
+    border: 1px solid rgba(57, 255, 202, 0.15);
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(57, 255, 202, 0.08);
+    background: rgba(11, 15, 26, 0.95);
+}

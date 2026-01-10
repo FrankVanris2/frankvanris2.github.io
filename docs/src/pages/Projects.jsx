@@ -33,39 +33,44 @@ const Projects = () => {
             <p> The Following projects below showcase my skills and experience in various programming languages, frameworks, and tools. Each project highlights my ability to apply my knowledge to real-world scenarios and solve complex problems. Feel free to explore the projects to see the range of my capabilities and the quality of my work.
             </p>
 
-            <ProjectCard
-                title="My Personal Website"
-                tags={websiteTechStack}
-                description={websiteDescription}
-                imageSrc="/WebsiteProject.png"
-                alignment="right"
-                links={[
-                    {text: "Frank Vanris Website Repo", url: "https://github.com/FrankVanris2/frankvanris2.github.io"}
-                ]}
-            />
-            
-            <ProjectCard
-                title="FollowBot"
-                tags={followBotTechStack}
-                description={followBotDescription}
-                imageSrc="/FollowBotProject.PNG"
-                alignment="left"
-                links={[
-                    { text: "FollowBot Legacy GitHub", url: "https://github.com/FrankVanris2/FollowBot_Legacy" },
-                    { text: "ROS2 FollowBot Legacy GitHub", url: "https://github.com/FrankVanris2/ROS2_FollowBot_Legacy" }
-                ]}
-            />
+            <div className="current-project-section">
+                <h2 className="section-title">🚧 Project Currently Under Development</h2>
+                <ProjectCard
+                    title="My Personal Website"
+                    tags={websiteTechStack}
+                    description={websiteDescription}
+                    imageSrc="/WebsiteProject.png"
+                    alignment="right"
+                    links={[
+                        {text: "Frank Vanris Website Repo", url: "https://github.com/FrankVanris2/frankvanris2.github.io"}
+                    ]}
+                />
+            </div>
+            <div className="finalized-projects-section">
+                <h2 className="section-title">✅ Finalized Projects</h2>
+                <ProjectCard
+                    title="FollowBot"
+                    tags={followBotTechStack}
+                    description={followBotDescription}
+                    imageSrc="/FollowBotProject.PNG"
+                    alignment="left"
+                    links={[
+                        { text: "FollowBot Legacy GitHub", url: "https://github.com/FrankVanris2/FollowBot_Legacy" },
+                        { text: "ROS2 FollowBot Legacy GitHub", url: "https://github.com/FrankVanris2/ROS2_FollowBot_Legacy" }
+                    ]}
+                />
 
-            <ProjectCard
-                title="GadgetBuddy"
-                tags={GadgetBuddyTechStack}
-                description={GadgetBuddyDescription}
-                imageSrc="/GadgetBuddy.jpeg"
-                alignment="right"
-                links={[
-                    { text: "GadgetBuddy Repo", url: "https://github.com/FrankVanris2/GadgetBuddy"}
-                ]}
-            />
+                <ProjectCard
+                    title="GadgetBuddy"
+                    tags={GadgetBuddyTechStack}
+                    description={GadgetBuddyDescription}
+                    imageSrc="/GadgetBuddy.jpeg"
+                    alignment="right"
+                    links={[
+                        { text: "GadgetBuddy Repo", url: "https://github.com/FrankVanris2/GadgetBuddy"}
+                    ]}
+                />
+            </div>
         </div>
     );
 }
