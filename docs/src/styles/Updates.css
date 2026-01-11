@@ -1,0 +1,99 @@
+.updates-container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.updates-intro {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+/* Featured update container */
+.featured-update {
+    background: #0f1624;
+    border: 1px solid var(--accent);
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    box-shadow: 0 0 15px rgba(57, 255, 202, 0.3);
+}
+
+/* Recent updates row */
+.recent-title {
+    margin-top: 10px;
+    color: var(--accent-2);
+    text-shadow: 0 0 6px rgba(0, 170, 255, 0.5);
+}
+
+/* Horizontal scroll for recent updates */
+.recent-scroll {
+    display: flex;
+    gap: 20px;
+    overflow-x: auto;
+    padding: 10px 0;
+    scrollbar-width: thin;
+}
+
+/* Each recent update block */
+.recent-block {
+    background: #0f1624;
+    border: 1px solid var(--accent-2);
+    border-radius: 10px;
+    padding: 12px;
+    min-width: 480px;
+    max-width: 550px;
+    height: fit-content;
+    box-shadow: 0 0 12px rgba(0, 170, 255, 0.25);
+    transition: transform 0.2s ease;
+}
+
+.recent-block:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 0 14px rgba(0, 170, 255, 0.4);
+}
+
+/* Horizontal scroll container */
+.archive-scroll {
+    display: flex;
+    gap: 16px;
+    overflow-x: auto;
+    padding: 10px 0;
+    scrollbar-width: thin;
+}
+
+/* Each archive block */
+.archive-block {
+    background: #0f1624;
+    border: 1px solid var(--accent);
+    border-radius: 8px;
+    min-width: 220px;
+    padding: 10px;
+    cursor: pointer;
+    box-shadow: 0 0 10px rgba(57, 255, 202, 0.2);
+    transition: transform 0.2s ease;
+}
+
+.archive-block:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 0 12px rgba(57, 255, 202, 0.4);
+}
+
+/* Summary text */
+.archive-block summary {
+    color: var(--accent);
+    font-family: 'Segoe UI Mono', 'Roboto Mono', Menlo, monospace;
+    text-shadow: 0 0 6px rgba(57, 255, 202, 0.5);
+    cursor: pointer;
+    list-style: none;
+}
+
+/* Remove default triangle */
+.archive-block summary::-webkit-details-marker {
+    display: none;
+}
+
+/* Content inside expanded archive block */
+.archive-content {
+    margin-top: 10px;
+}

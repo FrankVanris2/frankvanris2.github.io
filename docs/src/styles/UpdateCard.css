@@ -1,0 +1,36 @@
+.update-card {
+    background: #0b0f1a;
+    padding: 16px;
+    margin: 20px 0;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.update-card p {
+    margin-bottom: 12px;
+}
+
+.update-image {
+    width: 100%;
+    border-radius: 8px;
+    margin-bottom: 12px;
+}
+
+.read-more-btn {
+    background: transparent;
+    border: 1px solid var(--accent-2);
+    color: var(--accent-2);
+    padding: 6px 12px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-family: 'Segoe UI Mono', 'Roboto Mono', Menlo, monospace;
+    margin-top: 10px;
+    transition: 0.2s ease;
+}
+
+.read-more-btn:hover {
+    background: var(--accent-2);
+    color: #0b0f1a;
+    box-shadow: 0 0 10px rgba(0, 170, 255, 0.5);
+
+}
