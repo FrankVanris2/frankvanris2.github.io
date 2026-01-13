@@ -1,0 +1,22 @@
+.language-bar-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 12px;
+    margin-bottom: 10px;
+    background: rgba(57, 255, 202, 0.05);
+    border: 1px solid rgba(57, 255, 202, 0.2);
+    border-radius: 6px;
+    font-family: 'Segoe UI Mono', monospace;
+    color: var(--accent);
+    font-size: 0.95rem;
+}
+
+.language-name {
+    font-weight: bold;
+}
+
+.language-level {
+    color: var(--accent-2);
+    font-style: italic;
+}
