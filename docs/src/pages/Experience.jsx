@@ -6,13 +6,22 @@ import LanguageBar from '../components/LanguageBar';
 const Experience = () => {
     return (
         <div className="experience-wrapper">
-
-            <div className="languages-container">
-                <h2>🌍 Languages</h2>
-                <p>I speak three langauges with varying proficiency: </p>
-                <LanguageBar language="English" proficiency="Fluent"/>
-                <LanguageBar language="Spanish" proficiency="Conversational"/>
-                <LanguageBar language="Dutch" proficiency="Conversational"/>
+            <div className="left-column">
+                <div className="languages-container">
+                    <h2>🌍 Languages</h2>
+                    <p>I speak three langauges with varying proficiency: </p>
+                    <LanguageBar language="English" proficiency="Fluent"/>
+                    <LanguageBar language="Spanish" proficiency="Conversational"/>
+                    <LanguageBar language="Dutch" proficiency="Conversational"/>
+                </div>
+                <div className="certification-container">
+                    <h2>🏅 Certifications</h2>
+                    <p>Here are some certifications and achievements I've accomplished:</p>
+                    <ul>
+                        <li><strong>Azure Fundamentals AZ-900</strong></li>
+                        <li><strong>Most Promising Innovation - Ready Tensor</strong></li>
+                    </ul>
+                </div>
             </div>
             <div className="experience-container">
                 <h1>💼 Experience</h1>
@@ -97,6 +106,19 @@ const Experience = () => {
                 <LevelBar skill="CI/CD" level="Journeyman" />
                 <LevelBar skill="Code Review" level="Apprentice" />
                 <LevelBar skill="Version Control" level="Novice" />
+            </div>
+            <div className="soft-skills-container">
+                <h2>🤝 Soft Skills</h2>
+                <p>Skills that help me collaborate and lead effectively:</p>
+                <ul>
+                    <li><strong>Problem-Solving</strong></li>
+                    <li><strong>Team Collaboration</strong></li>
+                    <li><strong>Critical Thinking</strong></li>
+                    <li><strong>Planning</strong></li>
+                    <li><strong>Scheduling</strong></li>
+                    <li><strong>Organization</strong></li>
+                    <li><strong>Adaptability</strong></li>
+                </ul>
             </div>
         </div>
     );

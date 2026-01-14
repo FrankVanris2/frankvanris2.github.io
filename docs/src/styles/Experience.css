@@ -4,21 +4,39 @@
     justify-content: center;
     align-items: flex-start;
     gap: 20px;
-    max-width: 1200px;
+    max-width: 1500px;
     margin: 0 auto;
     padding: 20px;
 }
 
-.languages-container {
-    flex: 0 0 250px; /* Fixed width for compactness */
-    background: rgba(11,15,26,0.95);
+
+.left-column {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    flex: 0 0 300px;
+}
+
+
+
+.certification-container, .languages-container {
+    background: rgba(11, 15, 26, 0.95);
     border-radius: 12px;
-    border: 1px solid rgba(57,255,202,0.15);
-    box-shadow: 0 0 15px rgba(57,255,202,0.08);
+    border: 1px solid rgba(57, 255, 202, 0.15);
+    box-shadow: 0 0 15px rgba(57, 255, 202, 0.08);
     padding: 15px;
     animation: fadeIn 1s ease-in-out;
 }
 
+.soft-skills-container {
+    flex: 0 0 250px;
+    background: rgba(11, 15, 26, 0.95);
+    border-radius: 12px;
+    border: 1px solid rgba(57, 255, 202, 0.15);
+    box-shadow: 0 0 15px rgba(57, 255, 202, 0.08);
+    padding: 15px;
+    animation: fadeIn 1s ease-in-out;
+}
 
 .experience-container {  
     flex: 1;
