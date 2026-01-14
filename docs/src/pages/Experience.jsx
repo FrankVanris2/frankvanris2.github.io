@@ -6,7 +6,7 @@ import LanguageBar from '../components/LanguageBar';
 const Experience = () => {
     return (
         <div className="experience-wrapper">
-            <div className="left-column">
+            <div className="left-columns">
                 <div className="languages-container">
                     <h2>🌍 Languages</h2>
                     <p>I speak three langauges with varying proficiency: </p>
