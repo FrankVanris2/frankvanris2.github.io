@@ -17,6 +17,13 @@
     flex: 0 0 300px;
 }
 
+.right-columns {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    flex: 0 0 280px;
+}
+
 
 
 .certification-container, .languages-container {
@@ -28,8 +35,7 @@
     animation: fadeIn 1s ease-in-out;
 }
 
-.soft-skills-container {
-    flex: 0 0 250px;
+.soft-skills-container, .occupation-container {
     background: rgba(11, 15, 26, 0.95);
     border-radius: 12px;
     border: 1px solid rgba(57, 255, 202, 0.15);

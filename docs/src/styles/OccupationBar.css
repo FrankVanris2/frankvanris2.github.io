@@ -1,0 +1,34 @@
+.occupation-bar-link {
+    text-decoration: none;
+    display: block;
+}
+
+.occupation-bar-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 12px;
+    margin-bottom: 10px;
+    background: rgba(57, 255, 202, 0.05);
+    border: 1px solid rgba(57, 255, 202, 0.2);
+    border-radius: 6px;
+    font-family: 'Segoe UI Mono', monospace;
+    color: var(--accent);
+    font-size: 0.95rem;
+    transition: 0.2s ease;
+}
+
+.occupation-bar-container:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 0 16px rgba(57, 255, 202, 0.45);
+    border-color: var(--accent-2);
+}
+
+.job-name {
+    font-weight: bold;
+}
+
+.year-frame {
+    color: var(--accent-2);
+    font-style: italic;
+}

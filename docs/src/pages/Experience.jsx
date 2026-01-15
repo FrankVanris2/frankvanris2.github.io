@@ -2,6 +2,7 @@ import React from 'react';
 import '../styles/Experience.css';
 import LevelBar from '../components/LevelBar';
 import LanguageBar from '../components/LanguageBar';
+import OccupationBar from '../components/OccupationBar';
 
 const Experience = () => {
     return (
@@ -107,18 +108,27 @@ const Experience = () => {
                 <LevelBar skill="Code Review" level="Apprentice" />
                 <LevelBar skill="Version Control" level="Novice" />
             </div>
-            <div className="soft-skills-container">
-                <h2>🤝 Soft Skills</h2>
-                <p>Skills that help me collaborate and lead effectively:</p>
-                <ul>
-                    <li><strong>Problem-Solving</strong></li>
-                    <li><strong>Team Collaboration</strong></li>
-                    <li><strong>Critical Thinking</strong></li>
-                    <li><strong>Planning</strong></li>
-                    <li><strong>Scheduling</strong></li>
-                    <li><strong>Organization</strong></li>
-                    <li><strong>Adaptability</strong></li>
-                </ul>
+
+            <div className="right-columns">
+                <div className="soft-skills-container">
+                    <h2>🤝 Soft Skills</h2>
+                    <p>Skills that help me collaborate and lead effectively:</p>
+                    <ul>
+                        <li><strong>Problem-Solving</strong></li>
+                        <li><strong>Team Collaboration</strong></li>
+                        <li><strong>Critical Thinking</strong></li>
+                        <li><strong>Planning</strong></li>
+                        <li><strong>Scheduling</strong></li>
+                        <li><strong>Organization</strong></li>
+                        <li><strong>Adaptability</strong></li>
+                    </ul>
+                </div>
+                <div className="occupation-container">
+                    <h2>👨‍💼 Occupations</h2>
+                    <p>Current and previous occupations that I have done:</p>
+                    <OccupationBar job="Intouch365" years="2025-present" link="https://intouch365.nl/" />
+                    <OccupationBar job="Buddy Inc." years="2023-2025" />
+                </div>
             </div>
         </div>
     );
