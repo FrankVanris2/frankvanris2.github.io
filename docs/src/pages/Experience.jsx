@@ -10,7 +10,7 @@ const Experience = () => {
             <div className="left-columns">
                 <div className="languages-container">
                     <h2>🌍 Languages</h2>
-                    <p>I speak three langauges with varying proficiency: </p>
+                    <p>I speak three languages with varying proficiency: </p>
                     <LanguageBar language="English" proficiency="Fluent"/>
                     <LanguageBar language="Spanish" proficiency="Conversational"/>
                     <LanguageBar language="Dutch" proficiency="Conversational"/>
