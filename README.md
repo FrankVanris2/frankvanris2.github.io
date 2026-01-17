@@ -35,4 +35,4 @@ My development process is simple:
 
 
 
-**Would you like me to help you set up a simple "Backtracking Challenge" page next so you can start populating that "Lab" section we mentioned?**
+
