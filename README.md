@@ -1,9 +1,3 @@
-That’s a legendary README start. Given that you've officially moved from "Wine-Powered Markdown" to a live **Custom Domain** with a neon-branded **MVP**, we should definitely celebrate that win while keeping the "Robotics-first, Web-second" vibe.
-
-Here is a reworded version that honors your achievement and your honesty:
-
----
-
 # Frank C. Van Ris | Developer & Robotics Enthusiast
 
 ### 🚀 The MVP is Live!
