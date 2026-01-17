@@ -61,6 +61,7 @@ const PongGame = () => {
             state.ball.dy *= -1;
         }
 
+        // AI paddle
         const aiCenter = state.paddleRight.y + state.paddleHeight / 2;
         const diff = state.ball.y - aiCenter;
         const aiSpeed = 4.5;
@@ -102,9 +103,11 @@ const PongGame = () => {
         if (state.paddleLeft.score >= 5) {
             setWinner('YOU WIN');
             setGameStarted(false);
+            cancelAnimationFrame(animationFrameId.current);
         } else if (state.paddleRight.score >= 5) {
             setWinner('SYSTEM WINS');
             setGameStarted(false);
+            cancelAnimationFrame(animationFrameId.current);
         }
     };
 
@@ -174,12 +177,22 @@ const PongGame = () => {
                     height={600}
                 />
                 
-                {!gameStarted && (
+                
+                    {!gameStarted && (
                     <div className="overlay">
-                        {winner && <h1 className="winner-text">{winner}</h1>}
+                        <h1 className="winner-text">{winner}</h1>
+
+                        {winner === 'YOU WIN' && (
+                        <p className="binary-text">
+                            01010100 01101000 01100101 00100000 01100010 01101001 01110010 01100100 00100000 01100110 01101100 01101001 01100101 01110011 00100000 01100110 01101111 01110010 00100000 01001001 00100000 01100011 01101111 01101101 01100101 00100000 01100010 01111001 00101100 00100000 01101101 01111001 00100000 01101110 01100101 01111000 01110100 00100000 01110011 01101000 01101001 01100110 01110100 00100000 01110111 01101001 01101100 01101100 00100000 01100010 01111001 00100000 01110011 01110111 01101001 01100110 01110100 00101100 00100000 01100110 01101111 01110010 00100000 01100001 01101001 00100000 01110111 01101001 01101100 01101100 00100000 01100010 01100101 00100000 01100001 00100000 01100111 01101001 01100110 01110100 00100001 00100000 01001000 01101111 01110111 00100000 01001001 00100000 01101000 01101111 01110000 01100101 00100000 ...
+                            [INCOMPLETE]
+                        </p>
+                        )}
+
                         <button className="tech-btn" onClick={startGame}>
-                            {winner ? 'RESTART_SYSTEM' : 'INITIATE_GAME'}
+                        {winner ? 'RESTART_SYSTEM' : 'INITIATE_GAME'}
                         </button>
+
                     </div>
                 )}
             </div>

@@ -95,3 +95,29 @@ canvas {
         font-size: 2rem;
     }
 }
+
+
+.binary-text {
+    font-family: 'Segoe UI Mono', monospace;
+    font-size: 0.85rem;
+    color: var(--accent); /* Same neon green as the game */
+    text-shadow: 0 0 10px var(--accent);
+    margin-top: 1.5rem;
+    padding: 10px;
+    border: 1px solid var(--accent);
+    border-radius: 4px;
+    background: rgba(11, 15, 26, 0.8); /* Matches overlay background */
+    max-width: 90%;
+    word-break: break-word;
+    line-height: 1.4;
+    letter-spacing: 1px;
+    box-shadow: 0 0 15px rgba(57, 255, 202, 0.2);
+    animation: flicker 1.5s infinite alternate;
+}
+
+/* Flicker animation for hacker vibe */
+@keyframes flicker {
+    0% { opacity: 1; text-shadow: 0 0 10px var(--accent); }
+    50% { opacity: 0.8; text-shadow: 0 0 5px var(--accent); }
+    100% { opacity: 1; text-shadow: 0 0 15px var(--accent); }
+}
