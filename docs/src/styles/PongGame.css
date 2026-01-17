@@ -1,0 +1,97 @@
+.pong-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: var(--bg); /* Uses your #0b0f1a */
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.pong-header {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.pong-header h2 {
+    margin: 0;
+    font-size: 1.5rem;
+    letter-spacing: 2px;
+}
+
+.pong-header p {
+    font-size: 0.9rem;
+    margin-top: 0.5rem;
+}
+
+.canvas-wrapper {
+    position: relative;
+    border: 2px solid var(--accent); /* Uses your #39ffca */
+    box-shadow: 0 0 20px rgba(57, 255, 202, 0.2);
+    border-radius: 4px;
+    overflow: hidden;
+    line-height: 0;
+}
+
+canvas {
+    background-color: #000;
+    max-width: 100%;
+    height: auto;
+    cursor: none; /* Hides cursor so the paddle feels like the cursor */
+}
+
+/* The Start/Game Over Overlay */
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(11, 15, 26, 0.9);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    backdrop-filter: blur(4px);
+    z-index: 10;
+}
+
+.winner-text {
+    font-size: 3.5rem;
+    color: var(--accent);
+    margin-bottom: 2rem;
+    text-shadow: 0 0 20px var(--accent);
+    font-family: 'Segoe UI Mono', monospace;
+}
+
+/* Techy Button Style */
+.tech-btn {
+    background: transparent;
+    border: 1px solid var(--accent);
+    color: var(--accent);
+    padding: 12px 24px;
+    font-family: 'Segoe UI Mono', 'Roboto Mono', monospace;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.tech-btn:hover {
+    background: var(--accent);
+    color: var(--bg);
+    box-shadow: 0 0 15px var(--accent);
+}
+
+/* Responsiveness for smaller Ubuntu/Laptop screens */
+@media (max-width: 850px) {
+    .canvas-wrapper {
+        width: 100%;
+    }
+    
+    .winner-text {
+        font-size: 2rem;
+    }
+}

@@ -7,6 +7,8 @@ import '../styles/Updates.css';
 
 const Updates = () => {
     const latestUpdates = updates.slice(0, 4); // show 3 newest
+    const latestArticles = articles.slice(0, 5);
+    const oldArticles = articles.slice(5);
     const archive = updates.slice(4); // everything else
     return (
         
@@ -24,10 +26,18 @@ const Updates = () => {
             </div>
             <h2>Latest Articles</h2>
             <div className="articles-scroll">
-                {articles.map(article => (
+                {latestArticles.map(article => (
                     <ArticleCard key={article.id} {...article} />
                 ))}
             </div>
+            
+            <h3>Old Articles</h3>
+            <div className="recent-scroll old-articles">
+                {oldArticles.map(article => (
+                    <ArticleCard key={article.id} {...article} />
+                ))}
+            </div>
+            
             <h3 className="recent-title">Recent Updates</h3>
             <div className="recent-scroll">
                 {latestUpdates.slice(1).map(update => (
@@ -36,6 +46,8 @@ const Updates = () => {
                     </div>
                 ))}
             </div>
+
+            
 
             <h2>Archive</h2>
 

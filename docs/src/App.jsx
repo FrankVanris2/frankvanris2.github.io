@@ -7,6 +7,7 @@ import Experience from './pages/Experience';
 import Projects from './pages/Projects';
 import Updates from './pages/Updates';
 import Contact from './pages/Contact';
+import PongGame from './pages/PongGame';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
 function App() {
@@ -36,6 +37,7 @@ function App() {
         <Route path="/projects" element={<Projects />} />
         <Route path="/weekly_updates" element={<Updates />} />
         <Route path="/contact" element={<Contact />} />
+        <Route path="/pong" element={<PongGame />} />
       </Routes>     
     </BrowserRouter> 
   );

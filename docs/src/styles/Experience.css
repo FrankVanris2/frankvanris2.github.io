@@ -32,7 +32,8 @@
     border: 1px solid rgba(57, 255, 202, 0.15);
     box-shadow: 0 0 15px rgba(57, 255, 202, 0.08);
     padding: 15px;
-    animation: fadeIn 1s ease-in-out;
+    opacity: 0;
+    animation: fadeIn 1s ease-in-out forwards;
 }
 
 .soft-skills-container, .occupation-container {
@@ -41,7 +42,8 @@
     border: 1px solid rgba(57, 255, 202, 0.15);
     box-shadow: 0 0 15px rgba(57, 255, 202, 0.08);
     padding: 15px;
-    animation: fadeIn 1s ease-in-out;
+    opacity: 0;
+    animation: fadeIn 1s ease-in-out forwards;
 }
 
 .experience-container {  
@@ -53,7 +55,8 @@
     border: 1px solid rgba(57,255,202,0.1);
     box-shadow: 0 8px 32px rgba(57,255,202,0.1);
     padding: 20px;
-    animation: fadeIn 1s ease-in-out;
+    opacity: 0;
+    animation: fadeIn 1s ease-in-out forwards;
 }
 
 

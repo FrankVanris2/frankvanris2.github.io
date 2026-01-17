@@ -26,13 +26,13 @@ const Navbar = () => {
                     <li><Link to="/about_me">About</Link></li>
                     <li><Link to="/experience">Experience</Link></li>
                     <li><Link to="/projects">Projects</Link></li>
-                    <li><Link to="/weekly_updates">Updates</Link></li>
+                    <li><Link to="/weekly_updates">Updates & Articles</Link></li>
                     <li><Link to="/contact">Contact</Link></li>
                 </ul>
             </div>
 
             <div className="navbar-right">
-                <Link to="/my_logo" className="logo-icon" aria-label="Personal logo">
+                <Link to="/pong" className="logo-icon" aria-label="Play Pong">
                     <svg viewBox="0 0 24 24" width="24" height="24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
                         <rect x="2" y="4" width="20" height="16" rx="2" fill="none" stroke="currentColor" strokeWidth="1.2" strokeOpacity="0.9"></rect>
                         <circle cx="8.5" cy="11" r="1.4" fill="currentColor" fillOpacity="0.9"></circle>

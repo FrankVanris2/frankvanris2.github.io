@@ -1,5 +1,19 @@
 export const updates = [
     {
+        id: 6,
+        date: "17/01/2026",
+        title: "Update 6",
+        content: [
+            "This week has been a very busy week, but I can officially state that I am completely done with the mvp of this website. I have completed all of the features that I wanted to implement for this website, and I can safely move on to my next projects. However, I will need to slow down a bit due to the upcoming assignments that I will need to do at Intouch365.",
+            "This week for this website I have finally added article functionality, the Contacts page, some more updates to the Experience page to make it more aesthetic to the other pages, and I also added a little easter egg for people to find.",
+            "I have to admit things might be slow for the next couple of days due to the fact that I am currently studying for a second certificate. The exam for the certificate will be on February 25th so I really need to put a lot of time and effort into it. So working on projects will be delayed for a bit till I've accomplished the exam.",
+            "I also have 2 projects that I am currently pursuing here at Intouch365, one is [REDACTED] and the other is [REDACTED] I wish I could speak more about them but I know once they are completed I can greatly express such achievements for both!",
+            "I also plan to really master a programming language. I am not much of a javascript enjoyer however, I have to admit I did use gpt near the end of the project just to complete this as soon as possible. But I ensured that each of the necessary components implemented were similar to how I Implemented it myself.",
+            "I plan to give more updates in the coming weeks. And as for Articles, I plan to do write in the next coming months on a project. Stay tuned..."
+        ],
+        image: "WebsiteProgress.png"
+    },
+    {
     id: 5,
     date: "11/01/2026",
     title: "Update 5",

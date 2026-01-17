@@ -1,12 +1,12 @@
 .updates-container {
     max-width: 1000px;
     margin: 0 auto;
-    padding: 20px;
+    padding: 30px;
 }
 
 .updates-intro {
     text-align: center;
-    margin-bottom: 30px;
+    margin-bottom: 40px;
 }
 
 /* Featured update container */
@@ -14,9 +14,9 @@
     background: #0f1624;
     border: 1px solid var(--accent);
     padding: 20px;
-    border-radius: 10px;
+    border-radius: 12px;
     margin-bottom: 30px;
-    box-shadow: 0 0 15px rgba(57, 255, 202, 0.3);
+    box-shadow: 0 0 20px rgba(57, 255, 202, 0.3);
 }
 
 /* Recent updates row */
@@ -27,12 +27,19 @@
 }
 
 /* Horizontal scroll for recent updates */
-.recent-scroll {
+.articles-scroll, .recent-scroll {    
     display: flex;
     gap: 20px;
     overflow-x: auto;
     padding: 10px 0;
     scrollbar-width: thin;
+    scroll-snap-type: x mandatory;
+
+}
+
+.recent-scroll.old-articles {
+    opacity: 0.85;
+    filter: brightness(0.9);
 }
 
 /* Each recent update block */
