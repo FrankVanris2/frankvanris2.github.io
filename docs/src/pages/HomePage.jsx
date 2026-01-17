@@ -15,7 +15,6 @@ function HomePage()  {
                     <h2 className="hero-title">Hi, I'm Frank Christopher van Ris</h2>
                     <p className="hero-subtitle">This is my personal website. I'm a Backend Developer and Robotics enthusiast, with experience in Cloud Computing, Embedded Systems, and DevOps. I love experimenting with Robotics, and Software.</p>
                     <p className="hero-note">Stay tuned for weekly updates on my projects and articles!</p>
-                    <p className="hero-work-in-progress"><em>Note: This site is a work in progress.</em></p>
                 </div>
             </section>
             
