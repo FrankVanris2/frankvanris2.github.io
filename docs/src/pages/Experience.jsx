@@ -23,6 +23,13 @@ const Experience = () => {
                         <li><strong>Most Promising Innovation - Ready Tensor</strong></li>
                     </ul>
                 </div>
+                <div className="resume-container">
+                    <h2>🔖 Resume:</h2>
+                    <p>Here is my resume for those to see: </p>
+                    <a href="/FrankVanrisResumeProfessional.pdf" download className="resume-button">
+                        📄 Download My Resume
+                    </a>
+                </div>
             </div>
             <div className="experience-container">
                 <h1>💼 Experience</h1>

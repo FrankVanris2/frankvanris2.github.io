@@ -1,0 +1,58 @@
+
+.article-card {
+    display: flex;
+    flex-direction: column;
+    background: rgba(11,15,26,0.95);
+    border: 1px solid rgba(57,255,202,0.15);
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(57,255,202,0.08);
+    padding: 15px;
+    width: 280px; /* Perfect for horizontal scroll */
+    color: var(--accent);
+    font-family: 'Segoe UI Mono', monospace;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    scroll-snap-align: start;
+}
+
+.article-card:hover {
+    transform: scale(1.03);
+    box-shadow: 0 0 20px rgba(57,255,202,0.3);
+}
+
+.article-image {
+    width: 100%;
+    height: 160px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-bottom: 12px;
+    box-shadow: inset 0 -2px 8px rgba(0, 0, 0, 0.6), 0 0 12px rgba(57,255,202,0.03);
+}
+
+.article-card h2 {
+    font-size: 1.1rem;
+    font-weight: 700;
+    margin-bottom: 10px;
+    color: var(--accent);
+    text-shadow: 0 0 6px rgba(57,255,202,0.6);
+}
+
+.article-card p {
+    color: var(--muted);
+    font-size: 0.9rem;
+    line-height: 1.5;
+    margin-bottom: 10px;
+}
+
+.read-more-btn {
+    background: none;
+    border: none;
+    color: var(--accent-2);
+    cursor: pointer;
+    font-size: 0.9rem;
+    text-decoration: underline;
+    transition: color 0.2s ease;
+}
+
+.read-more-btn:hover {
+    color: var(--accent);
+}

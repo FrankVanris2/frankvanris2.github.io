@@ -1,5 +1,7 @@
 import React from 'react';
 import '../styles/HomePage.css';
+import { articles } from "../data/articles";
+import ArticleCard from "../components/ArticleCard";
 
 function HomePage()  {
     return (
@@ -62,8 +64,16 @@ function HomePage()  {
             </section>
 
             {/* Coming Soon Section */}
-            <section className="coming-soon-section">
-                <p>Articles and Updates coming soon and more is to come...</p>
+            <section className="articles-section">
+                <h2>📰 Latest Articles</h2>
+                <div className="articles-scroll">
+                    {articles.slice(0, 10).map(article => (
+                    <div key={article.id} className="article-block">
+                        <ArticleCard {...article} />
+                    </div>
+                    ))}
+                </div>
+                <a href="/updates" className="view-more-link">View More Articles →</a>
             </section>
         </div>
     );

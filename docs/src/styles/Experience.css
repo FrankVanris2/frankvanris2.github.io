@@ -26,7 +26,7 @@
 
 
 
-.certification-container, .languages-container {
+.certification-container, .languages-container, .resume-container {
     background: rgba(11, 15, 26, 0.95);
     border-radius: 12px;
     border: 1px solid rgba(57, 255, 202, 0.15);
@@ -91,4 +91,21 @@
 .experience-container p {
     margin-bottom: 20px;
     line-height: 1.7;
+}
+
+.resume-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background: var(--accent);
+    color: var(--bg);
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(57, 255, 202, 0.4);
+    transition: background 0.3s ease, box-shadow 0.3s ease;
+}
+
+.resume-button:hover {
+    background: var(--accent-2);
+    box-shadow: 0 0 15px rgba(57, 255, 202, 0.6);
 }

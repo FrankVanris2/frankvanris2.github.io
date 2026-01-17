@@ -106,6 +106,20 @@
     text-align: center;
 }
 
+.articles-scroll {
+    display: flex;
+    overflow-x: auto;
+    gap: 20px;
+    padding: 10px;
+    scroll-snap-type: x mandatory;
+}
+
+.article-block {
+    flex: 0 0 auto;
+    width: 300px;
+    scroll-snap-align: start;
+}
+
 .intentions-section p, .coming-soon-section p {
     color: var(--muted);
     line-height: 1.6;
