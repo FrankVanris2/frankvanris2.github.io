@@ -72,7 +72,6 @@ function HomePage()  {
                     </div>
                     ))}
                 </div>
-                <a href="/updates" className="view-more-link">View More Articles →</a>
             </section>
         </div>
     );
