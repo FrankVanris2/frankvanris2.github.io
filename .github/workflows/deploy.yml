@@ -34,6 +34,10 @@ jobs:
         run: npm run build
         working-directory: ./docs
 
+      # Creating a 404.html file
+      - name: Create 404.html
+        run: cp ./docs/dist/index.html ./docs/dist/404.html
+
       - name: Setup Pages
         uses: actions/configure-pages@v4
 
