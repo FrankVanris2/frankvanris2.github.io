@@ -1,6 +1,8 @@
 # Frank C. Van Ris | Developer & Robotics Enthusiast
 
 ### 🚀 The MVP is Live!
+<img width="1913" height="850" alt="image" src="https://github.com/user-attachments/assets/40e09a57-5a5b-4137-b533-c7ff3627a323" />
+<img width="1907" height="840" alt="image" src="https://github.com/user-attachments/assets/9f2dc898-1a10-477d-a77c-f795efb9709f" />
 
 If you are reading this, I have successfully survived my first encounter with GitHub Pages and DNS records. The website is no longer a dream—it is officially a reality at **[frankcvanris.com](https://www.frankcvanris.com/)**.
 
