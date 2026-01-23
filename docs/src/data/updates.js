@@ -1,5 +1,17 @@
 export const updates = [
     {
+        id: 7,
+        date: "23/01/2026",
+        title: "Update 7",
+        content: [
+            "The following days have been very productive on my side. A lot of the tasks I am doing at my current company Intouch365 have been very beneficial in my learning and my growth in product development. Establishing features within an mvp and showcasing those features to my colleagues has allowed me to learn and garner more knowledge/skills. I've learned to adapt and understand the difference between a business perspective and developer perspective. Both have their own sets of challenges, but making them work together has been very educational.", 
+            "I've also had the time to really progress on my studies for my second certification. I plan on doing the exam on the 25th of February or close to that date specifically. I'm currently doing a lot of personal study and also doing a lot of practice exams in order to fully understand the scope of the exam. After I complete this exam, I will have one final certificate to accomplish. I am very excited for the benefits that will come after completing all certificates.",
+            "As for personal growth, I want to look to other projects that I plan to do after I have more freetime. I'm currenty going to be putting most of my energy right now in studying, but afterwards I plan to go back into doing personal projects. I have one in mind that I really think could allow me to make some income if I were to sell it properly. I just suck at advertising so I will have to look into ways in properly advertising my ideas if my project comes to frutition.",
+            "Any who thats all the updates for this week on my side. Making good progress so far with my company, but I still need to keep pushing to become a better developer day by day."
+        ],
+        image: null
+    },
+    {
         id: 6,
         date: "17/01/2026",
         title: "Update 6",
