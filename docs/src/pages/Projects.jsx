@@ -35,19 +35,21 @@ const Projects = () => {
 
             <div className="current-project-section">
                 <h2 className="section-title">🚧 Project Currently Under Development</h2>
+                <p className="centered">Upcoming projects will be posted here soon.</p>
+            </div>
+            <div className="finalized-projects-section">
+                <h2 className="section-title">✅ Finalized Projects</h2>
                 <ProjectCard
                     title="My Personal Website"
                     tags={websiteTechStack}
                     description={websiteDescription}
-                    imageSrc="/WebsiteProject.png"
+                    imageSrc="/Website_Final_Addition.png"
                     alignment="right"
                     links={[
                         {text: "Frank Vanris Website Repo", url: "https://github.com/FrankVanris2/frankvanris2.github.io"}
                     ]}
                 />
-            </div>
-            <div className="finalized-projects-section">
-                <h2 className="section-title">✅ Finalized Projects</h2>
+
                 <ProjectCard
                     title="FollowBot"
                     tags={followBotTechStack}

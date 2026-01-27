@@ -50,3 +50,7 @@
     box-shadow: 0 0 15px rgba(57, 255, 202, 0.08);
     background: rgba(11, 15, 26, 0.95);
 }
+
+.centered {
+    text-align: center;
+}
