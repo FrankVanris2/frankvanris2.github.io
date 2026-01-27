@@ -1,5 +1,27 @@
 export const updates = [
     {
+        id: 8,
+        date: "27/01/2026",
+        title: "Final Website Update",
+        content: [
+            "After weeks of development, I am thrilled to announce my current final addition to this website. Over these past couple of weeks I've been off and on but still having the urge to make a website about myself.",
+            "It has been a <strong>long journey</strong> but a <strong>fruitful one</strong> for sure. I always told myself I was going to get to this project of mine, but of course I procrastinated. Now after all this time, I <strong>finally got to finishing my personal website</strong>. I am very proud of the end result, and I hope you all enjoy it as well.",
+            "This website will show <strong>updates on my other personal projects, articles that I write, and much more</strong>. I plan to keep this website updated as much as possible, so stay tuned for more blogs in the future!",
+            "So what are the final additions that I added? Here is a quick list:",
+            "",
+            "- <strong>Removed the Contacts page, and added contact icons to the navbar instead.</strong>",
+            "- <strong>Renamed Updates & Artciles to Blogs.</strong>",
+            "- <strong>Made the Pong Game a bit easier to beat, I can deny nor confirm what lies at the end of the game (Still a Secret).</strong>",
+            "- <strong>Added my Work Eligibility badge to the homepage.</strong>",
+            "- <strong>Added minor mobile support.</strong>",
+            "",
+            "If your asking where the mobile phone support is well...I added a bit just to make it a bit more friendly. But I probably won't touch up on it more.",
+            "Anyways those are all the updates for this week I might have a future project up my sleave who knows ;)"
+
+        ],
+        image: "Website_Final_Addition.png"
+    },
+    {
         id: 7,
         date: "23/01/2026",
         title: "Update 7",

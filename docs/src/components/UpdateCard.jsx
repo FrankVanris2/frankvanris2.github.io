@@ -16,7 +16,7 @@ const UpdateCard = ({ title, date, content, image}) => {
             <h2>{title} - {date}</h2>
 
             {visibleContent.map((paragraph, index) => (
-                <p key={index}>{paragraph}</p>
+                <p key={index} dangerouslySetInnerHTML={{ __html: paragraph }} />
             ))}
 
             {isMultiParagraph && (

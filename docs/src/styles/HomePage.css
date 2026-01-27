@@ -103,7 +103,6 @@
 
 .additional-section {
     margin-bottom: 40px;
-    text-align: center;
 }
 
 .articles-scroll {
@@ -125,22 +124,125 @@
     line-height: 1.6;
 }
 
-/* Reponsive adjustments */
+/* Work Eligibility Section */
+.work-eligibility-section {
+    margin-bottom: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.eligibility-badge {
+    background: linear-gradient(135deg, rgba(57,255,202,0.08), rgba(0,170,255,0.06));
+    border: 2px solid rgba(57,255,202,0.25);
+    border-radius: 8px;
+    padding: 1.5rem 2rem;
+    max-width: 500px;
+    text-align: center;
+    box-shadow: 0 0 20px rgba(57,255,202,0.1), inset 0 -2px 8px rgba(0,0,0,0.3);
+    animation: glow 3s ease-in-out infinite;
+}
+
+.eligibility-badge h3 {
+    font-size: 1.3rem;
+    color: var(--accent);
+    margin: 0 0 0.75rem 0;
+    letter-spacing: 0.04em;
+    text-shadow: 0 0 8px rgba(57,255,202,0.4);
+}
+
+.eligibility-badge p {
+    color: var(--muted);
+    margin: 0.5rem 0 1rem 0;
+    font-size: 0.95rem;
+}
+
+.countries {
+    display: flex;
+    gap: 0.75rem;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.country-tag {
+    background: linear-gradient(90deg, rgba(57,255,202,0.1), rgba(0,170,255,0.1));
+    border: 1px solid rgba(57,255,202,0.2);
+    border-radius: 20px;
+    padding: 0.5rem 1rem;
+    font-size: 0.9rem;
+    color: var(--accent);
+    transition: all 0.3s ease;
+}
+
+.country-tag:hover {
+    border-color: rgba(57,255,202,0.4);
+    background: linear-gradient(90deg, rgba(57,255,202,0.15), rgba(0,170,255,0.15));
+    box-shadow: 0 0 12px rgba(57,255,202,0.2);
+}
+
+@keyframes glow {
+    0%, 100% {
+        box-shadow: 0 0 20px rgba(57,255,202,0.1), inset 0 -2px 8px rgba(0,0,0,0.3);
+    }
+    50% {
+        box-shadow: 0 0 30px rgba(57,255,202,0.2), inset 0 -2px 8px rgba(0,0,0,0.3);
+    }
+}
+
+/* Responsive adjustments */
+@media (max-width: 1024px) {
+    .home-container { max-width: 100%; padding: 1rem; }
+    .right-image { width: 100%; max-width: 350px; }
+    .articles-scroll { gap: 1rem; padding: 0.5rem; }
+    .article-block { width: 280px; }
+}
+
 @media (max-width: 768px) {
+    .home-container { padding: 1rem; }
+
     .hero-section {
         flex-direction: column;
         text-align: center;
+        gap: 1rem;
+        margin-bottom: 2rem;
     }
-    .right-align {
-        flex-direction: column;
-    }
-    .occupation-section {
-        flex-direction: column;
-        text-align: center;
-    }
-    .right-align {
-        flex-direction: column;
-        justify-content: center;
-        text-align: center;
-    }
+
+    .profile-box { width: 150px; height: 150px; }
+
+    .intro-text { flex: 1; width: 100%; }
+
+    .hero-title { font-size: 1.2rem; }
+    .hero-subtitle, .hero-note { font-size: 0.9rem; }
+
+    .occupation-section { flex-direction: column; text-align: center; gap: 1rem; }
+    .occupation-image { width: 120px; height: auto; }
+
+    .right-align { flex-direction: column; justify-content: center; text-align: center; gap: 1.5rem; }
+    .right-image { width: 100%; max-width: 300px; }
+
+    .eligibility-badge { padding: 1rem 1.5rem; max-width: 100%; }
+    .country-tag { font-size: 0.85rem; padding: 0.4rem 0.8rem; }
+
+    .articles-scroll { gap: 1rem; padding: 0.5rem; }
+    .article-block { width: 250px; min-width: 250px; }
+}
+
+@media (max-width: 480px) {
+    .home-container { padding: 0.75rem; }
+    .hero-section { gap: 0.75rem; margin-bottom: 1.5rem; }
+    .profile-box { width: 120px; height: 120px; }
+    .hero-title { font-size: 1rem; }
+    .hero-subtitle, .hero-note { font-size: 0.8rem; }
+    .occupation-section { gap: 0.75rem; }
+    .occupation-image { width: 100px; }
+    .right-align { gap: 1rem; }
+    .right-image { max-width: 250px; }
+    .eligibility-badge { padding: 0.75rem 1rem; }
+    .eligibility-badge h3 { font-size: 1.1rem; }
+    .eligibility-badge p { font-size: 0.85rem; }
+    .country-tag { font-size: 0.75rem; padding: 0.3rem 0.6rem; }
+    .countries { gap: 0.5rem; }
+    .articles-scroll { gap: 0.75rem; padding: 0.5rem 0.25rem; }
+    .article-block { width: 200px; min-width: 200px; }
+    h2 { font-size: 1.2rem; }
 }

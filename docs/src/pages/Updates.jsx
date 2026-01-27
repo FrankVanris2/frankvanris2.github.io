@@ -15,9 +15,8 @@ const Updates = () => {
 
         <div className="updates-container">
             <div className="updates-intro">
-                <h1>Updates & Articles</h1>
-                <p>This page is where I will posting weekly updates on the things I have been doing for the past couple of days in a week. There will be nothing grand for now,
-                    especially how bland this page is at the moment. But later on you will see updates on what life has been like in the Netherlands.
+                <h1>My Blogs</h1>
+                <p> This is my Blog Page! Here you will find Updates on my personal and professional life, as well as articles I've written on various topics related to technology, programming, and my experiences in the field. Feel free to explore the latest updates and articles below!
                 </p>
             </div>
             <h2>Latest Updates</h2>

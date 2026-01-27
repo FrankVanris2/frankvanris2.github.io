@@ -28,7 +28,7 @@
 }
 .hero-title{
   font-family:'Segoe UI Mono','Roboto Mono',monospace;
-  font-size: clamp(1.4rem, 4.5vw, 2.6rem);
+  font-size: clamp(2rem, 5.5vw, 4rem);
   margin:0;
   position:relative;
   letter-spacing:0.02em;
@@ -63,6 +63,21 @@
   color:var(--muted);
   font-size:0.95rem;
   letter-spacing:0.08em;
+}
+
+/* Mobile responsive styles for hero */
+@media (max-width: 768px) {
+  .hero { padding: 2rem 0.75rem; }
+  .hero-title-wrap { flex-wrap: wrap; gap: 0.5rem; }
+  .title-chip { width: 36px; height: 36px; }
+  .hero-title { font-size: clamp(1.5rem, 4vw, 2.5rem); }
+  .hero-sub { font-size: 0.85rem; }
+}
+
+@media (max-width: 480px) {
+  .hero { padding: 1.5rem 0.5rem; }
+  .title-chip { width: 32px; height: 32px; }
+  .hero-title { font-size: clamp(1.2rem, 3.5vw, 2rem); }
 }
 
 .App-logo {

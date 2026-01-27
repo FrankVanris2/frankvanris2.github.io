@@ -22,6 +22,20 @@ function HomePage()  {
             <section className="intentions-section">
                 <p>This website is designed to reflect my technical expertise and showcase reliable information about me. The following tabs will provide detailed insights into my background, experiences, projects, and updates. While the homepage remains simple, the tabs truly represent who I am.</p>
             </section>
+
+            <h2>Essential Information About me:</h2>
+            {/* Work Eligibility Section */}
+            <section className="work-eligibility-section">
+                <div className="eligibility-badge">
+                    <h3>✓ Work Eligible</h3>
+                    <p>I hold triple citizenship and am authorized to work across:</p>
+                    <div className="countries">
+                        <span className="country-tag">🇺🇸 United States</span>
+                        <span className="country-tag">🇲🇽 Mexico</span>
+                        <span className="country-tag">🇪🇺 European Union</span>
+                    </div>
+                </div>
+            </section>
             
             {/* Current job occupation Section */}
             <section className="occupation-section">

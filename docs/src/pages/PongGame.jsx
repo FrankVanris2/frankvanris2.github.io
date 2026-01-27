@@ -11,7 +11,7 @@ const PongGame = () => {
 
     // Standard JS object
     const gameState = useRef({
-        ball: { x: 400, y: 300, dx: 5, dy: 5, size: 10, speed: 5 },
+        ball: { x: 400, y: 300, dx: 5, dy: 5, size: 10, speed: 3 },
         paddleLeft: { y: 250, score: 0 },
         paddleRight: { y: 250, score: 0 },
         paddleHeight: 100,
@@ -46,7 +46,7 @@ const PongGame = () => {
         const state = gameState.current;
         state.ball.x = state.canvasWidth / 2;
         state.ball.y = state.canvasHeight / 2;
-        state.ball.speed = 5;
+        state.ball.speed = 3;
         state.ball.dx = (Math.random() > 0.5 ? 1 : -1) * state.ball.speed;
         state.ball.dy = (Math.random() > 0.5 ? 1 : -1) * state.ball.speed;
     };
@@ -64,7 +64,7 @@ const PongGame = () => {
         // AI paddle
         const aiCenter = state.paddleRight.y + state.paddleHeight / 2;
         const diff = state.ball.y - aiCenter;
-        const aiSpeed = 4.5;
+        const aiSpeed = 2.5;
         
         if (diff > 0) state.paddleRight.y += aiSpeed;
         else state.paddleRight.y -= aiSpeed;
