@@ -15,6 +15,9 @@
     min-height: 100vh;
 }
 
+/* Prevent horizontal overflow on the homepage */
+.home-container { overflow-x: hidden; box-sizing: border-box; }
+
 .hero-section {
     display: flex;
     align-items: center;
@@ -40,6 +43,9 @@
     object-fit: cover;
     border-radius: 6px;
 }
+
+/* Ensure occupation and right images never exceed their containers */
+.occupation-image, .right-image { max-width: 100%; height: auto; }
 
 .centered-image {
     width: 100%;
@@ -118,6 +124,9 @@
     width: 300px;
     scroll-snap-align: start;
 }
+
+/* prevent article blocks from overflowing parent due to box-sizing */
+.articles-scroll, .article-block { box-sizing: border-box; }
 
 .intentions-section p, .coming-soon-section p {
     color: var(--muted);
