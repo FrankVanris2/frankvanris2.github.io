@@ -35,6 +35,7 @@
   color:var(--accent);
   text-shadow: 0 6px 28px rgba(0,170,255,0.06);
   padding:0.15rem 0.25rem;
+   overflow: hidden;
 }
 .hero-title::before{
   content:'';
