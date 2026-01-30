@@ -4,11 +4,20 @@ import ProjectCard from '../components/ProjectCard';
 
 const Projects = () => {
 
+     // Intouch365 Support Portal
+    const supportDescription = [
+        "The Intouch365 Support Portal is a comprehensive Power apps Application designed to streamline and enhance customer support operations. Developed using Microsoft Power Apps, Power Pages, Power Automate, and Dataverse, this portal serves as a centralized platform for managing customer inquiries, and tickets.",
+        " The portal features a user-friendly interface that allows support agents to efficiently track and resolve customer issues. Key functionalities include ticket creation, ticket management, and real-time updates on ticket status. The integration with Dataverse ensures that all customer data is securely stored and easily accessible.",
+        " The Intouch365 Support Portal also uses a technical stack within Power Pages that allows me as a developer to enhance things through code using HTML, CSS, and JavaScript or TypeScript. This flexibility allows for customizations and enhancements to meet specific business needs.",
+        "Overall, the Intouch365 Support Portal is a powerful tool that improves customer support efficiency and enhances the overall customer experience."
+    ];
+    const supportTechStack = ["Microsoft Power Apps", "Power Pages", "Power Automate", "Dataverse", "HTML", "CSS", "JavaScript", "TypeScript"]
+
     //Website Project Specific Elements
     const websiteDescription = [
-        "My latest project as of this moment, as you can probably guess by now is my website! This website is currently being developed through React Vite, a modern React Environment that relys on Typescript instead of Javascript. This project in general is my personal Portfolio, but I plan to add more slowly bit by bit to make it more lively to the audience. My intentions initially are to finish the general mvp's, and then to slowly expand the website.",
-        "This new project of mine is basic in nature. I am not much of a frontend developer, and doing this project is indeed giving me some frontend experience. However my intentions for the future are clear. I plan to put most of my efforts into developing future projects that are embedded and robotics related. I also wish to expand my knowledge into future technologies and use cases. As of right now within this website I have established a total of 6 pages: Homepage, About Me page, Experience page, Projects page, Updates page, and Contacts page.",
-        "Within the website I plan on also creating personal articles on future projects and future research that I would like to present to people. I might add some backend related components but for now this will be just a general portfolio that people can look at. I do also plan on adding more projects along the way to let users know what future endeavors I have been up to. I can't wait to share more on the upcoming projects after this one. In all, this is a basic web portfolio about me with basic future ideas that I plan on doing."
+        "My website is a fully completed project built using React Vite, a modern React environment that relies on TypeScript instead of JavaScript. It serves as my personal portfolio, designed to showcase my work in a clean and structured way. The core MVPs have been completed, and the site is now fully launched, with future updates planned only to enhance the experience rather than finish it.",
+        "This project is simple in nature but meaningful in purpose. While frontend development isn’t my primary focus, building this site gave me valuable experience in UI, layout, and user‑oriented design. My long‑term direction remains centered on embedded systems, robotics, and emerging technologies. The website currently includes six completed pages: Homepage, About Me, Experience, Projects, Updates, and Contacts.",
+        "With the site now established, I plan to publish personal articles on future projects, research topics, and technical explorations I want to share. Backend components may be added later, but for now the site functions as a complete and accessible portfolio. I’ll continue adding new projects over time so visitors can follow along with my latest work. Overall, this is a finalized web portfolio that introduces who I am and outlines the ideas and projects I aim to pursue moving forward."
     ];
     const websiteTechStack = ["React", "Typescript", "JavaScript", "CSS", "HTML", "JSON"]
 
@@ -35,7 +44,16 @@ const Projects = () => {
 
             <div className="current-project-section">
                 <h2 className="section-title">🚧 Project Currently Under Development</h2>
-                <p className="centered">Upcoming projects will be posted here soon.</p>
+    
+                <ProjectCard 
+                    title="Intouch365 Support Portal"
+                    tags={supportTechStack}
+                    description={supportDescription}
+                    imageSrc="/IntouchSupport.png"
+                    alignment="left"
+                    links={[]}
+                />
+
             </div>
             <div className="finalized-projects-section">
                 <h2 className="section-title">✅ Finalized Projects</h2>
