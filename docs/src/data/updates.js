@@ -1,5 +1,18 @@
 export const updates = [
     {
+        id: 9,
+        date: "03/02/2026",
+        title: "Current Projects and Future Plans",
+        content: [
+            "Hellooooo Everyone! Yes I have finally finished my website, and NO I am not going to make it any more mobile friendly. I AM DOONEEE! But that doesn't mean I am done from developing new projects. Oh no, I am just getting started for sure.", 
+            "Just recently I've been tasked to work on a application within my company that will need continuous maintenance for the years to come. And I am currently developing the necessary pipelines and features for such a application to keep running for a very long time. It's also such a new application to me that I have to learn eeeverything about power pages, and power apps within a months time! Who knew things could get so spicy within the first 3 days of Febraury!",
+            "Aside from work, I have one personal project that I am currently working on. It's private though, so I won't be talking to much about it. Buut...there is by chance a repository laying around that could give you some hints into what I am doing wink wink ;)",
+            "Other than that, I plan to continue writing articles and updates on my website consistently till I Die!!!! I'm deadass being serious, also don't expect me to make these updates 'professional'. This is after all; my website so I can do whatever the {Redacted} I want!",
+            "P.S. Okay I may be keeping the swearing to the down-low but EVERYTHING ELSE WILL BE SAID!",
+        ],
+        image: null
+    },
+    {
         id: 8,
         date: "27/01/2026",
         title: "Final Website Update",

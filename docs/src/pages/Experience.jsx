@@ -37,7 +37,7 @@ const Experience = () => {
                     also have experience with web development using HTML, CSS, and JavaScript. In addition to programming languages, I am also skilled 
                     in using various tools and frameworks such as React, Node.js, and Django. The following below indicates my efficiency in various skills:
                 </p>
-
+                
                 <h2>Programming Languages 💻</h2>
                 <p>These are the current programming languages that I have worked with before and the ranging experience between them all.</p>
                 <LevelBar skill="C++" level="Expert" />
@@ -67,7 +67,8 @@ const Experience = () => {
                 <LevelBar skill="Microsoft Copilot Studio" level="Apprentice" />
                 <LevelBar skill="Power Apps" level="Apprentice" />
                 <LevelBar skill="Power Platform" level="Apprentice" />
-                <LevelBar skill="Power Automate" level="Novice" />
+                <LevelBar skill="Power Automate" level="Apprentice" />
+                <LevelBar skill="Power Pages" level="Apprentice" />
                 
                 <h2>Development Environments 🏗️</h2>
                 <p>I have worked on a lot of environments. The following are the environments that I have experience in.</p>
