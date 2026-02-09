@@ -1,5 +1,19 @@
 export const updates = [
     {
+        id: 10,
+        date: "09/02/2026",
+        title: "New Projects and just some updates",
+        content: [
+            "Howdy yall! Man a week has just passed and I really don't have to many updates to share. I am still working on a project within my company that I plan to finish up by the end of the month. And I can finally share a little bit of my new side project that I am doing.",
+            "With my project in my company I've been doing a lot of work around low-code website design and development. I have been learning a lot more about Power Apps, and Dataverse just to get a better grasp on what I'm supposed to be doing. I'm also playing a lot with Power Pages as well! Just today I finished up a cloud flow that was needed in order to notify us if a Case has been created. There are so many exciting things I would like to talk about with this project but I have to keep the rest of those features on the low for now. Let's just say the Supportal is going to look 10 times better than it was before.", 
+            "As for my side project, again I can't really speak to much about it but I can say that it's been a little side project that I've wanted to do for a while. And since it's really in the early phases, the only thing I will share today is a photo with this update. The tech stack for this upcoming project is completely all in C++. And the maze you are seeing is completely generated through recursive backtracking.", 
+            "Like I said I won't speak more until I have done more work on it. For the next couple of weeks I won't share to much on it, so dont expect a lot of exciting news to occur.", 
+            "Now as for the <strong>articles</strong>... I haven't been working on any yet. But I already have one in mind that I want to write about. I know I said I would be posting an article each week, but it has been really tough to do so. I think the best alternative is for me to post them when I can, since right now my headspace doesn't entirely know what I should be writing for my first article. But I will figure out what it should be! I promise.",
+            "Anyways those are all the updates for this week, I hope to come back with a bang when ready. For now I'll just be working on my projects and of course doing my weekly updates."
+        ],
+        image: "GeneratedMaze.png"
+    },
+    {
         id: 9,
         date: "03/02/2026",
         title: "Current Projects and Future Plans",
