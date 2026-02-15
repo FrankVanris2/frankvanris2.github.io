@@ -41,7 +41,7 @@ const Updates = () => {
             <div className="recent-scroll">
                 {latestUpdates.slice(1).map(update => (
                     <div key={update.id} className="recent-block">
-                        <UpdateCard {... update} />
+                        <UpdateCard {...update} useModal={true} />
                     </div>
                 ))}
             </div>
@@ -52,12 +52,9 @@ const Updates = () => {
 
             <div className="archive-scroll">
                 {archive.map(update => (
-                    <details key={update.id} className="archive-block">
-                        <summary>{update.title} - {update.date}</summary>
-                        <div className="archive-content">
-                            <UpdateCard {...update} />
-                        </div>
-                    </details>  
+                    <div key={update.id} className="archive-block">
+                        <UpdateCard {...update} previewOnly={true} />
+                    </div>
                 ))}
             </div>
         </div>

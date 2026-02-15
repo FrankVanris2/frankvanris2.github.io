@@ -1,6 +1,6 @@
 {
   "name": "frank_vanris_website",
-  "version": "2.0.1",
+  "version": "2.5.0",
   "private": false,
   "dependencies": {
     "@testing-library/dom": "^10.4.1",

@@ -17,6 +17,34 @@
     margin-bottom: 12px;
 }
 
+.update-preview {
+    background: #0b0f1a;
+    padding: 12px;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    border: 1px solid var(--accent);
+}
+
+.update-preview:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 0 12px rgba(57, 255, 202, 0.4);
+    border-color: var(--accent-2);
+}
+
+.update-preview h3 {
+    margin: 0 0 6px 0;
+    color: var(--accent);
+    font-size: 0.95rem;
+}
+
+.preview-date {
+    margin: 0;
+    color: var(--accent-2);
+    font-size: 0.85rem;
+    font-family: 'Segoe UI Mono', 'Roboto Mono', Menlo, monospace;
+}
+
 .read-more-btn {
     background: transparent;
     border: 1px solid var(--accent-2);

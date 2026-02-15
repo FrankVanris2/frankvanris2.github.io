@@ -1,5 +1,20 @@
 export const updates = [
     {
+        id: 11,
+        date: "15/02/2026",
+        title: "Minor Website Update",
+        content: [
+            "Hey ya'll just a quick update this coming week. I did a minor update to the website, I call it version 2.5.0. Here are the features that I quickly added:", 
+            "     - <strong>Added a popup window for updates that have a lot of content.</strong>",
+            "     - <strong>Updates within the Latest Updates section will only have the \"Show more Toggle\".</strong>",
+            "     - <strong>Update popups has a scrollbar to ensure that you can move from top to bottom of the updates page with no problems.</storng>",
+            "     - <strong>Added mobile support for the popups window for updates as well.</strong>",
+            "In general these updates are just to make the user experience a bit better. And I have to admit for me clicking between the different updates it was annoying to see things crammed up so much. So hopefully you guys find this a bit more enjoyable to read. Especially the old updates.",
+            "Anyways that's all for this week, I hope to have more exciting news to share in the coming weeks. Have a great week peeps!"
+        ],
+        image: null
+    },
+    {
         id: 10,
         date: "09/02/2026",
         title: "New Projects and just some updates",
