@@ -18,8 +18,9 @@ const ArticleCard = ({title, date, content, image}) => {
             <Modal isOpen={isOpen} onClose={() => setIsOpen(false)}>
                 <h2>{title}</h2>
                 <h3>{date}</h3>
+                {image && <img src={image} alt={title} className="article-image" />}
                 {content.map((paragraph, index) => (
-                    <p key={index}>{paragraph}</p>
+                    <p key={index} dangerouslySetInnerHTML={{ __html: paragraph }}></p>
                 ))}
             </Modal>
         </div>
