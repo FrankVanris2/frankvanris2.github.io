@@ -2,7 +2,7 @@ export const articles = [
     {
         id: 2,
         title: "My Addiction is Back",
-        date: "22/02/2026", 
+        date: "February 22, 2026", 
         content: [
             "Yes...it is true, I have started playing NMS once again! but I can explain...ok maybe I can't. BUUUT there was a cool expedition called Remnant that just came out which has so many exciting features that were implemented into the game! I mean how could I resist such an exciting new expedition and new toys to play with!!",
             "I have been playing this game since this Friday and it never seeks to dissapoint! New customizations to your exocraft, a new expedition where you get to roam around with friends on a planet, and new points of interest to explore! I think one of my favorite additions with the new exavator tool that they added for the exocraft. Everytime you ram into a plant or rock you gain a bit of resources from it!",

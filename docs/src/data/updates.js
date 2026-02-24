@@ -1,5 +1,18 @@
 export const updates = [
     {
+        id: 12,
+        date: "24/02/2026",
+        title: "Busy Week and some updates",
+        content: [
+            "OH boy, what a busy week I have planned...I have to admit it's deployment week so ensuring that everything is good before hand is a bit stressful. I've done all the technical tests and now it just comes down to User/Security tests. ",
+            "We currently have \"The\" Solution within the Sandbox environment and so far things have been looking good. I just had to do some minor design changes and language configuration changes so far. Not only that but I am putting a lot of effort right now into practicing for the Power Platform Developer Certificate which I plan to take in a week or 2. So yes very busy and productive week planned.",
+            "After \"The\" Solution is deployed, I will be putting effort into a NEW project at Intouch365, and finishing up another minor project as well that I was tasked with early January. I can't wait to share more updates on those projects! As for my personal project that I have gave minor updates on, it's still being developed and it's currently at it's very early stages. So still don't expect anything new just yet.",
+            "Other news, I have just uploaded a new article this past week! go ahead and check it out! It's about a game I really enjoy playing and the fact that a new update just came out for it. If your into exploration games like me, go ahead and take a read!",
+            "Besides that, I hope ya'll have a pleasant week, can't wait to share more when the time is right!"
+        ],
+        image: null
+    },
+    {
         id: 11,
         date: "15/02/2026",
         title: "Minor Website Update",
