@@ -44,16 +44,21 @@ const Projects = () => {
 
             <div className="current-project-section">
                 <h2 className="section-title">🚧 Project Currently Under Development</h2>
-    
+                <p className="centered">Projects that are under <strong>development</strong> will be placed here.</p>
+                
+
+            </div>
+
+            <div className="maintained-projects-section">
+                <h2 className="section-title">🔧 Maintained Projects</h2>
                 <ProjectCard 
                     title="Intouch365 Support Portal"
                     tags={supportTechStack}
                     description={supportDescription}
                     imageSrc="/IntouchSupport.png"
                     alignment="left"
-                    links={[]}
+                    links={[{ text: "Intouch365 Support Portal Link", url: "https://intouch365-supportportaal.powerappsportals.com"}]}
                 />
-
             </div>
             <div className="finalized-projects-section">
                 <h2 className="section-title">✅ Finalized Projects</h2>

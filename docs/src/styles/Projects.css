@@ -41,7 +41,7 @@
     text-shadow: 0 0 6px rgba(0, 170, 255, 0.6);
 }
 
-.current-project-section,
+.current-project-section, .maintained-projects-section
 .finalized-projects-section {
     margin-bottom: 60px;
     padding: 20px;
