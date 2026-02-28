@@ -59,9 +59,7 @@ const Projects = () => {
                     alignment="left"
                     links={[{ text: "Intouch365 Support Portal Link", url: "https://intouch365-supportportaal.powerappsportals.com"}]}
                 />
-            </div>
-            <div className="finalized-projects-section">
-                <h2 className="section-title">✅ Finalized Projects</h2>
+
                 <ProjectCard
                     title="My Personal Website"
                     tags={websiteTechStack}
@@ -72,7 +70,10 @@ const Projects = () => {
                         {text: "Frank Vanris Website Repo", url: "https://github.com/FrankVanris2/frankvanris2.github.io"}
                     ]}
                 />
-
+            </div>
+            <div className="finalized-projects-section">
+                <h2 className="section-title">✅ Finalized Projects</h2>
+                
                 <ProjectCard
                     title="FollowBot"
                     tags={followBotTechStack}
