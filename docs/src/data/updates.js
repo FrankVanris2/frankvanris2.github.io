@@ -1,5 +1,19 @@
 export const updates = [
     {
+        id: 13,
+        date: "02/03/2026",
+        title: "The Solution is Deployed!",
+        content: [
+            "I am very excited to share that the solution I have been working on for the past month is finally completed! The Intouch365 Supportal with new improvements and updates is released to all associates clients.",
+            "I am very proud of the work My team and I have done to make this project finalized. The Supportal uses the latest technologies within the Power Platform, and with the new design and features, it is a huge improvement from the previous version.",
+            "Not only that but we now have a solid foundation for future improvements and updates! the previous portal had to consistently be updated in the production environment which was really unsafe, it was a huge milestone for us to ensure we had the necessary pipelines for this project to ensure that we can continuously update the portal without any issues. I am very excited to see what the future holds for this project, and I can't wait to share more updates on it in the future!",
+            "If you want to check out the portal, go ahead and check it out in the maintained section of the Projects page!",
+            "As for my personal project, I've done some good progress with it but it's still in the early phases. I plan to update you guys more on the progress but for now I will just say that the player mechanics are coming around.",
+            "Other than that, I hope you all have a great week! I will be back with more updates soon!"
+        ],
+        image: null
+    },
+    {
         id: 12,
         date: "24/02/2026",
         title: "Busy Week and some updates",
