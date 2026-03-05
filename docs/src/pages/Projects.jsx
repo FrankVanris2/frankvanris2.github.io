@@ -4,6 +4,15 @@ import ProjectCard from '../components/ProjectCard';
 
 const Projects = () => {
 
+    // Resource Management System
+    const resourceManagementDescription = [
+        "The Resource Management Planner is a comprehensive Model-Driven App that is used to keep track of the current resources of the company. It is built using Microsoft Power Apps, Power Automate, and Dataverse. The app allows users to easily manage and keep track of their hours within projects and assignments related to those projects.",
+        "Due to the layout of th Model-Driven App, The Resource Management planner has been designed with a user-friendly interface that allows users to easily navigate and access information when needed. With the usage of the Power Components Framework, I have been able to create custom components that enhance the user experience and provide additional functionality to the app.",
+        "The Resource Management Planner uses Power Automate workflows to streamline and process math operations in the background to evaluate the hours of the users and provide insights on their resource allocation. The app also uses business logic to do simple calculations and boolean checks within certain columns of specific forms.",
+        "Overall, the Resource Management Planner is a powerful tool that helps users to manage their resources effectively and efficiently, providing them with the necessary insights to make informed decisions about their projects and assignments."
+    ];
+    const resourceManagementTechStack = ["Microsoft Power Apps", "Power Automate", "Dataverse", "Power Components Framework", "Business Logic", "JavaScript", "Typescript", "CSS", "XML"]
+
      // Intouch365 Support Portal
     const supportDescription = [
         "The Intouch365 Support Portal is a comprehensive Power apps Application designed to streamline and enhance customer support operations. Developed using Microsoft Power Apps, Power Pages, Power Automate, and Dataverse, this portal serves as a centralized platform for managing customer inquiries, and tickets.",
@@ -44,9 +53,13 @@ const Projects = () => {
 
             <div className="current-project-section">
                 <h2 className="section-title">🚧 Project Currently Under Development</h2>
-                <p className="centered">Projects that are under <strong>development</strong> will be placed here.</p>
-                
-
+                <ProjectCard
+                    title="Intouch365 Resource Management Planner"
+                    tags={resourceManagementTechStack}
+                    description={resourceManagementDescription}
+                    imageSrc="/ResourceManagementPlanner.png"
+                    alignment="right"
+                />
             </div>
 
             <div className="maintained-projects-section">
