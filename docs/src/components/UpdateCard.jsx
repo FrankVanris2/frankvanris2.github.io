@@ -19,7 +19,7 @@ const UpdateCard = ({ title, date, content, image, useModal = false, previewOnly
                 <Modal isOpen={isModalOpen} onClose={() => setIsModalOpen(false)}>
                     <h2>{title}</h2>
                     <h3>{date}</h3>
-                    {image && <img src={image} alt={title} className="update-image" />}
+                    {image && <img src={image} alt={title} className="update-image" loading="lazy" />}
                     {Array.isArray(content) ? (
                         content.map((paragraph, index) => (
                             <p key={index} dangerouslySetInnerHTML={{ __html: paragraph }} />
@@ -36,7 +36,7 @@ const UpdateCard = ({ title, date, content, image, useModal = false, previewOnly
         // Modal mode
         return (
             <div className="update-card">
-                {image && <img src={image} alt={title} className="update-image" />}
+                {image && <img src={image} alt={title} className="update-image" loading="lazy" />} 
                 <h2>{title}</h2>
                 <h3>{date}</h3>
                 <p>{Array.isArray(content) ? content[0] : content}</p>
@@ -47,7 +47,7 @@ const UpdateCard = ({ title, date, content, image, useModal = false, previewOnly
                 <Modal isOpen={isModalOpen} onClose={() => setIsModalOpen(false)}>
                     <h2>{title}</h2>
                     <h3>{date}</h3>
-                    {image && <img src={image} alt={title} className="update-image" />}
+                    {image && <img src={image} alt={title} className="update-image" loading="lazy" />} 
                     {Array.isArray(content) ? (
                         content.map((paragraph, index) => (
                             <p key={index} dangerouslySetInnerHTML={{ __html: paragraph }} />
@@ -68,7 +68,7 @@ const UpdateCard = ({ title, date, content, image, useModal = false, previewOnly
             : [content];
     return (
         <div className="update-card">
-            {image && <img src={image} alt={title} className="update-image" />}
+            {image && <img src={image} alt={title} className="update-image" loading="lazy" />}
             <h2>{title} - {date}</h2>
 
             {visibleContent.map((paragraph, index) => (

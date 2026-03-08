@@ -11,7 +11,7 @@ export const articles = [
             "If there is one thing that I also say and was taught back at school is that <strong> the customer is always right </strong>. And Hello Games by far has been proving that.",
             "Honestly way to go! Now as you can excuse me, I have some NM/CHORES to do!!"    
         ],
-        image: "Landscape.png"
+        image: "Landscape.jpg"
     },
     {
         id: 1,

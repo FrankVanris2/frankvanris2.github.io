@@ -6,14 +6,14 @@ const AboutMe = () => {
         <div className="about-me-container">
             <h1>About Me</h1>
             <div className="education-item">
-                <img src="/BellevueCollege.jpg" alt="Bellevue College" />
+                <img src="/BellevueCollege.jpg" alt="Bellevue College" loading="lazy" />
                 <p> I am a Graduate from Bellevue College with a Bachelors in Computer Science. I graduated in 2025, and 
                     I recently moved to the Netherlands on September 8th. I love software development, and programming. In general I absolutely 
                     love to work on my personal robotic projects, and experiment with software that is new in the market. 
                 </p>
             </div>
             <div className="education-item">
-                <img src="/DigiPen.jpg" alt="DigiPen" />
+                <img src="/DigiPen.jpg" alt="DigiPen" loading="lazy" />
                 <p>
                     Before I did my Bachelor's in Computer Science I did a Associates degree in Game Development as a Wanic Course in DigiPen that 
                     interconnected with my Highschool studies. During this time I learned how to program in C and C#, and I played around with Unity
@@ -30,10 +30,10 @@ const AboutMe = () => {
             <h2>Favorite Videogame</h2>
             <p>One of my favorite videogames by far is <strong>No Man's Sky</strong>. Originally, I would have said Minecraft, but over the past couple of years, I can safely say that NMS has taken the top spot on my list. This game is absolutely massive; it contains over 16 quintillion planets that range across 255 galaxies. It's a massive universe for you as a player to explore. Not even in your lifetime could you manage to visit all of the planets in the game. Hello Games has achieved a massive feat in game development, and due to their continuous contributions to the game with massive updates, it will never lose its spark.</p>
             <div className="game-gallery">
-                <img src="/NMS1.png" alt="No Man's Sky Screenshot 1" />
-                <img src="/NMS2.png" alt="No Man's Sky Screenshot 2" />
-                <img src="/NMS3.png" alt="No Man's Sky Screenshot 3" />
-                <img src="/NMS4.png" alt="No Man's Sky Screenshot 4" />
+                <img src="/NMS1.jpg" alt="No Man's Sky Screenshot 1" loading="lazy" />
+                <img src="/NMS2.jpg" alt="No Man's Sky Screenshot 2" loading="lazy" />
+                <img src="/NMS3.jpg" alt="No Man's Sky Screenshot 3" loading="lazy" />
+                <img src="/NMS4.jpg" alt="No Man's Sky Screenshot 4" loading="lazy" />
             </div>
             <h2>Current Learning Goals</h2>
             <div className="learning-goals">
@@ -63,9 +63,9 @@ const AboutMe = () => {
                 </div>
             </div>
             <h2>Life in the Netherlands</h2>
-            <img src="/SecondWindmill.jpeg" alt="Second Windmill" className="small-image" />
+            <img src="/SecondWindmill.jpg" alt="Second Windmill" className="small-image" loading="lazy" />
             <div className="para-with-image">
-                <img src="/DutchTreat.jpeg" alt="Dutch Treat" />
+                <img src="/DutchTreat.jpeg" alt="Dutch Treat" loading="lazy" />
                 <p>Living in the Netherlands has been an absolute journey. When I moved here I was jumping from Uncle to Uncle, I had to obtain a BSN number within 2 weeks which is needed in order to obtain a job. 
                     I also needed to get a bank account in order for employers to pay me. After settling those two things I was able to focus on finding a place to live. After 3 months of searching I was able to 
                     find a nice apartment here in Roosendaal. I have a fantastic view, and a very nice garden that I am currently remodeling a bit. During the weekends I love to do day trips, a couple of weeks ago I did 
@@ -73,7 +73,7 @@ const AboutMe = () => {
                 </p>
             </div>
             <div className="para-with-image right">
-                <img src="/canal.jpeg" alt="Canal" />
+                <img src="/canal.jpeg" alt="Canal" loading="lazy" />
                 <p>
                     One of the best things I have noticed when moving here is how close everything is to one another. I don't need to drive or take a bus to a grocery store anymore. the closest Jumbo or Albert Hein is only a 
                     3-5 minute walk or bike ride. It's honestly a game changer. Not only that but transportation here is amazing! You do not need to rely on having a car 24/7, you can walk, bike, and train from city to city. 
@@ -81,7 +81,7 @@ const AboutMe = () => {
                 </p>
             </div>
             <div className="para-with-image">
-                <img src="/Den Hague.jpeg" alt="Den Hague" />
+                <img src="/Den Hague.jpeg" alt="Den Hague" loading="lazy" />
                 <p>
                     Another amazing highlight of living in the Netherlands is the Governmental benefits. As a resident here, I get to enjoy various benefits such as healthcare subsidies, and housing allowances. These benefits 
                     significantly ease the financial burden and enhance the quality of life. The Dutch healthcare system is top-notch, and having access to it at a subsidized rate is a huge relief. Additionally, 
@@ -99,7 +99,7 @@ const AboutMe = () => {
                 When it comes to building sofware and programming features, It is best to follow the SOLID principles, and ensure that the code is maintainable, 
                 scalable, and efficient. 
             </p>
-            <img src="/Solid.jpeg" alt="SOLID Principles" className="solid-image" /> 
+            <img src="/Solid.jpeg" alt="SOLID Principles" className="solid-image" loading="lazy" /> 
             <p>
                 But it is also greatly important to enjoy what you are doing as a developer. If the incentive for most people is to just make that big buck, then I don't truly see them fully as a 
                 developer. You should be enjoying what you are doing, and loving the process of creating something new. 

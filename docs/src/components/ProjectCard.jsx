@@ -8,7 +8,7 @@ const ProjectCard = ({ title, tags = [],description, imageSrc, alignment, links 
     return (
         <div className={containerClass}>
             <div className="project-image">
-                <img src={imageSrc} alt={`${title} Project`} />
+                <img src={imageSrc} alt={`${title} Project`} loading="lazy" />
             </div>
             <div className="project-content">
                 <h2>{title}</h2>

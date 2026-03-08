@@ -9,7 +9,7 @@ function HomePage()  {
             {/* Hero Section: Image left, text right */}
             <section className="hero-section">
                 <div className="profile-box">
-                    <img src="/profile.jpg" alt="Frank Christopher van Ris" className="profile-image" />
+                    <img src="/profile.jpg" alt="Frank Christopher van Ris" className="profile-image" loading="lazy" />
                 </div>
                 <div className="intro-text">
                     <h2 className="hero-title">Hi, I'm Frank Christopher van Ris</h2>
@@ -39,7 +39,7 @@ function HomePage()  {
             
             {/* Current job occupation Section */}
             <section className="occupation-section">
-                <img src="/IntouchLogo.jpg" alt="Intouch365" className="occupation-image" />
+                <img src="/IntouchLogo.jpg" alt="Intouch365" className="occupation-image" loading="lazy" />
                 <div className="occupation-text">
                     <h2>Current Occupation</h2>
                     <p>I am currently employed at Intouch365 as a Technical Developer. As a Technical Developer at Intouch365, 
@@ -52,7 +52,7 @@ function HomePage()  {
 
             {/* Greatest Achievements Section */}
             <section className="additional-section right-align">
-                <img src="/myTeam.jpg" alt="Greatest Achievement" className = "right-image" />
+                <img src="/myTeam.jpg" alt="Greatest Achievement" className = "right-image" loading="lazy" />
                 <div className="text-content">
                     <h2>Greatest Achievement of 2025</h2>
                     <p>

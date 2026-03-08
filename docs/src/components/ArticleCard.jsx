@@ -7,7 +7,7 @@ const ArticleCard = ({title, date, content, image}) => {
 
     return (
         <div className="article-card">
-            {image && <img src={image} alt={title} className="article-image" />}
+            {image && <img src={image} alt={title} className="article-image" loading="lazy" />}
             <h2>{title}</h2>
             <h3>{date}</h3>
             <p>{content[0]}</p>
@@ -18,7 +18,7 @@ const ArticleCard = ({title, date, content, image}) => {
             <Modal isOpen={isOpen} onClose={() => setIsOpen(false)}>
                 <h2>{title}</h2>
                 <h3>{date}</h3>
-                {image && <img src={image} alt={title} className="article-image" />}
+                {image && <img src={image} alt={title} className="article-image" loading="lazy" />}
                 {content.map((paragraph, index) => (
                     <p key={index} dangerouslySetInnerHTML={{ __html: paragraph }}></p>
                 ))}

@@ -78,7 +78,7 @@ const Projects = () => {
                     title="FollowBot"
                     tags={followBotTechStack}
                     description={followBotDescription}
-                    imageSrc="/FollowBotProject.PNG"
+                    imageSrc="/FollowBotProject.jpg"
                     alignment="left"
                     links={[
                         { text: "FollowBot Legacy GitHub", url: "https://github.com/FrankVanris2/FollowBot_Legacy" },
