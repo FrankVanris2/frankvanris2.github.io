@@ -1,5 +1,17 @@
 export const updates = [
     {
+        id: 14,
+        date: "12/03/2026",
+        title: "Whats been going on",
+        content: [
+            "Hey guys! it has been a bit since I have last posted. But in all honesty it's because I've been super busy with some important tasks at the company I am working at. I can't say to much yet on the new projects I am working on in the background, but I can promise you it's some exciting B2B stuff!",
+            "Since the Deployment of the Supportal, I have been putting more time on my current project that I've been working on since early December. I also started working on some features that needed to be close to finish by tomorrow. I wish I could talk more about it, but I still need to keep it on the low.",
+            "As for my personal projects and my continuous learning to be proficient in C++, it has halted a bit more this week as I wanted. I still plan to keep working on my personal project as much as possible. I've recently started working on player mechanics, and soon enemy mechanics.",
+            "Other than that, I will be keeping this week chill! I'll be heading back to the United States for a 2 week break, so most likely you guys won't see any updates till I come back. But I'll be back with some fresh updates!"
+        ],
+        image: null
+    },
+    {
         id: 13,
         date: "02/03/2026",
         title: "The Solution is Deployed!",
