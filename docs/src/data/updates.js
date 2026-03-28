@@ -1,5 +1,20 @@
 export const updates = [
     {
+        id: 15,
+        date: "28/03/2026",
+        title: "I am back!",
+        content: [
+            "Hello everyone!, I am back from my trip to Washington State. It was a fun trip where I got to spend time with my girlfriend, family, and friends. I have to admit I probably gained a lottt of pounds after staying for 2 weeks. I'll have to account for that when I head to the gym again :(",
+            "Now that I am back, I plan to put my full effort into my studies, work projects, and my personal projects. I have also continued to invest into finalizing all of the furniture needed in my apartment. I currently just purchased a TV, and a TV Stand for it. Currently the TV stand has not arrived yet, I'll have to wait till next Saturday.",
+            "I also plan to put effort into my second certificate studies, I have spent the time already throughout the break in clearing my head and having fun. Now it's time to put my effort back into it. I hope to do my second certificate within the next month or 2.",
+            "Whats nice to is that I was able to bring things back from the United States back to the Netherlands, such as my Meta Headset and some books. I am very excited to be back and to start showcasing more upcoming news in the future.", 
+            "At somepoint I plan on making another Article, so stay tuned for that ;)",
+            " ",
+            "As always see you again next week!"
+        ],
+        image: "Seattle.jpeg"
+    },
+    {
         id: 14,
         date: "12/03/2026",
         title: "Whats been going on",
