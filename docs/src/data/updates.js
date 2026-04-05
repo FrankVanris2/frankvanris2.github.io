@@ -1,5 +1,16 @@
 export const updates = [
     {
+        id: 16,
+        date: "05/04/2026",
+        title: "Happy Easter!",
+        content: [
+            "Happy Easter everyone! I hope you all are having an amazing day, this past week I've done some immense work on some related projects within Intouch365, and I'v also done some personal progress on my new project that I am working on. More updates on that in the near future of course ;)",
+            "Speaking of holidays didn't I say Happy Easter? I did? oh well then again HAPPY EASTER!! Enjoy this splendid day with your family and friends! I sure will be of course. I will see you guys in the coming weeks with hopefully more eventful news.",
+            "Anyways have an amazing week Allemaal! (Thats Dutch for everyone ;))."
+        ],
+        image: "HappyEaster.jpg"
+    },
+    {
         id: 15,
         date: "28/03/2026",
         title: "I am back!",
