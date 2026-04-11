@@ -1,5 +1,17 @@
 export const updates = [
     {
+        id: 17,
+        date: "11/04/2026",
+        title: "Hard work this past week",
+        content: [
+            "This past week has been super busy, I have decided to do my second certificate exam on the 24th of April, so I have a lot of studying to do for the next couple of weeks. I also have to keep working on a internal project at Intouch365 that I cannot fully talk about yet. But I have been making decent progress lately and I can't wait to share more about it in the coming months.",
+            "As for my personal projects, I have put so much effor into one that I plan to give more updates in the coming future. I did have to pause though due to the amount of work I had this past week. But I plan to put more time into the project of mine so that I can meet my deadlines with it.",
+            "Other than that, I might make an article in the coming weeks related to some general learning curves that I have been going through. One is improving my knowledge and experience in C++, and the other is learning more about the Power Platform. I have been doing a lot of work on both of those areas, and I think it would be nice to share some of the things I've learned in the process. So stay tuned for that as well!",
+            "Anyways that's all for this week, I hope to have more exciting news to share soon."
+        ],
+        image: null
+    },
+    {
         id: 16,
         date: "05/04/2026",
         title: "Happy Easter!",
