@@ -1,5 +1,17 @@
 export const updates = [
     {
+        id: 18,
+        date: "19/04/2026",
+        title: "Fantastic Progress",
+        content: [
+            "This past week has been amazing, and I’ve had several highlights that are worth sharing in this update. On Tuesday, I attended a <strong>Make-A-Wish</strong> event with my manager, and it was honestly a fantastic experience. I learned much more about one of the clients we’re working with and gained a deeper appreciation for the incredible work they do to make children’s dreams come true. Seeing the passion and dedication behind their mission was truly inspiring, and it makes me proud to work for a company that partners with organizations focused on making a real difference in the world.",
+            "Another great milestone this week was the completion of the required features for one of our internal projects—we wrapped everything up on Friday! I’m really excited to share more about the internal projects I’ve been working on at <strong>Intouch365</strong> in the near future. I’ve also made solid progress on my personal project, and I’m happy to say there will be more updates on that over the next couple of weeks. In addition, I spent time preparing for my upcoming exam, which I’ll be taking this week, and I’m feeling confident about it.",
+            "I’m extremely proud of how far I’ve come. Just a few months ago, my main focus was finding stability here in the Netherlands, and now that I’ve achieved that, I’m ready to concentrate on reaching my next set of goals.",
+            "I’ll be back with more updates next weekend. For now...<strong>Tot weekend allemaal!</strong>" 
+        ],
+        image: "MakeAWish.jpeg"
+    },
+    {
         id: 17,
         date: "11/04/2026",
         title: "Hard work this past week",
