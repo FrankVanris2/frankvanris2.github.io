@@ -1,5 +1,17 @@
 export const updates = [
     {
+        id: 19,
+        date: "26/04/2026",
+        title: "Interesting Week",
+        content: [
+            "Ya this week has bee quite interesting in all honesty. I sadly had to reschedule my Exam till May 22nd since my manager needed me for a event that was taking place on Friday which clashed with my exam. I was hoping to do it this Friday, but I'll be doing it in May instead. As for work in general, I have some new tasks that I need to accomplish before the beginning of June.",
+            "One of the projects is related to a Webinar that we will be conducting, and the other is related again to the webinar but to the upcoming solutions that we plan to sell within the appsource for Intouch365. I wish I could speak more about it, but I first need to finish it to completion before I can speak about it. It has been quite stressful on my end because of it, so I'm going to do my best to ensure that I get things done, without overworking myself.",
+            "As for my personal projects, just yesterday I made some decent progress on the \"Maze Game\" that I am making. I think once I finish up some more of the important game design features, I can share with you guys how it will look. Maybe a video recording as well to give you guys a more insightful reason to try it out ;)",
+            "I've also made some good C++ progress as well, I'm really trying to improve my c++ skills every single day if I can. But I will stop here for now, hope by next week I have some more positive updates on things I have been doing. Tot weekend allemaal!"
+        ],
+        image: null
+    },
+    {
         id: 18,
         date: "19/04/2026",
         title: "Fantastic Progress",
