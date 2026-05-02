@@ -1,5 +1,16 @@
 export const updates = [
     {
+        id: 20,
+        date: "02/05/2026",
+        title: "Good Progress",
+        content: [
+            "This week was a productive mix of professional progress and personal milestones. I completed one of the demos alongside my teammate Julia for our upcoming Copilot webinar, which we’re planning to host in early June. It felt great to reach that milestone and see the demo come together in a way that will be genuinely valuable for attendees. Alongside that work, I’ve been very consistent with sharpening my C++ skills. Every day, I dedicated about 45 minutes to solving a C++ coding problem, which has helped me maintain momentum and reinforce my problem‑solving habits. I’m also in the process of publishing an internal project for the team to use, which is especially rewarding since it will directly support others in their work.",
+            "On the personal side, this week marked the completion of a long‑term goal: fully furnishing my room. After six months of gradually purchasing furniture, I was finally able to bring everything together and choose pieces that best fit my studio space. It feels satisfying to see the room fully come together after such a drawn‑out process. I’ve also made solid progress on the game I’m planning to release, even though I’ve been keeping it relatively low‑key. With a busy schedule and limited time to be outwardly active, it’s still encouraging to see steady behind‑the‑scenes progress.",
+            "Overall, it's been a very meaningful week. Tomorrow I plan on going to Middelburg, Zeeland in the Netherlands to do a bit of exploring. But anyways Tot weekend allemaal! Ik hoop dat jullie een fijne komende week hebben :)"
+        ],
+        image: null
+    },
+    {
         id: 19,
         date: "26/04/2026",
         title: "Interesting Week",
