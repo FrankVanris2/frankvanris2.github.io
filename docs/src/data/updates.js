@@ -1,5 +1,23 @@
 export const updates = [
     {
+        id: 21,
+        date: "09/05/2026",
+        title: "Game Progress",
+        content: [
+            "This week I have been hard at work in the development cycle of some internal projects at Intouch365, but now that I have also had the time to work on my personal projects. I can give a small glimps into the current prototype I have been developing.",
+            "Within the Godot engine I have been developing a 3D multiplayer maze game, without any assistance with ai. It has been a hard journey thus far, but I am proud of the progress I have made to get to this point. Throughout these past couple of months, I have added the following: ",
+            "     - <strong>Procedural Maze Generation.</strong>",
+            "     - <strong>Player Movement.</strong>",
+            "     - <strong>Inventory Management</strong>",
+            "     - <strong>Item Spawn System</strong>",
+            "     - <strong>Winning Functionality</strong>",
+            "     - <strong>Item Collection/Dropping Functionality</strong>",
+            "     - <strong>Sprinting Functionality</strong>",
+            "I plan to continue the development lifecycle for this game, and although these might seem like small features. All of them were hand-created by me without any form of ai assistance. I am very proud of the work I've done on this game, and I can't wait to share more updates on it in the future. I also plan to share a video of the gameplay as well in the near future, so stay tuned for that!"
+        ],
+        image: "earlyPrototype.png"
+    },
+    {
         id: 20,
         date: "02/05/2026",
         title: "Good Progress",
