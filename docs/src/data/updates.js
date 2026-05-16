@@ -1,5 +1,17 @@
 export const updates = [
     {
+        id: 22,
+        date: "16/05/2026",
+        title: "Amazing Week",
+        content: [
+            "This week, was honestly exhilerating! I have done so much thus far that I have to mention all of the goals that I have completed this week. First of all I was able to publish a internal resource management tool into production at Intouch365! This tool will be used to manage the workload between all employees and the assignments they are attending. I'm so happy with the internal release of this project, but that isn't all.",
+            "Another exciting update is that we have officially published a registration bot for all our current and future webinars! As a user you can now register yourself through an agent. Although it's goal is to just register a user for an upcoming webinar, we plan to add more logic to the agent, so that it will be able to answer any questions that you may have. You might be thinking that these are all the updates I have for you guys, but this is not it!",
+            "At Intouch365 I have been hard at work on a a future sellable integration that we plan to release within the appsource. With great satisfaction I can say that we have successfully built a WhatsApp Custom Channel within CI-Journeys! And right now you can test it out when you register for our upcoming <strong>Copilot Webinar</strong>! We currently do not have a release date yet for this integration, but I can say that we are planning to release it within the next couple of months. I am so proud of the work we have done on this project, and I can't wait to share more updates on it in the future!",
+            "As for personal projects, and my upcoming exam this Friday, I have still been hard at work on them and I plan to give more updates in the future to those related projects. I just want to take a moment to say thank you to everyone who has been following my updates, and I hope you all have a great week! Tot weekend allemaal!"
+        ],
+        image: "intouch_meta.png"
+    },
+    {
         id: 21,
         date: "09/05/2026",
         title: "Game Progress",
