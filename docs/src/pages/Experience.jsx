@@ -64,11 +64,11 @@ const Experience = () => {
                 <LevelBar skill="Django" level="Novice" />
                 <LevelBar skill="freeCAD" level="Expert" />
                 <LevelBar skill="Fusion360" level="Journeyman" />
-                <LevelBar skill="Microsoft Copilot Studio" level="Apprentice" />
-                <LevelBar skill="Power Apps" level="Apprentice" />
-                <LevelBar skill="Power Platform" level="Apprentice" />
-                <LevelBar skill="Power Automate" level="Apprentice" />
-                <LevelBar skill="Power Pages" level="Apprentice" />
+                <LevelBar skill="Microsoft Copilot Studio" level="Journeyman" />
+                <LevelBar skill="Power Apps" level="Journeyman" />
+                <LevelBar skill="Power Platform" level="Journeyman" />
+                <LevelBar skill="Power Automate" level="Journeyman" />
+                <LevelBar skill="Power Pages" level="Journeyman" />
                 
                 <h2>Development Environments 🏗️</h2>
                 <p>I have worked on a lot of environments. The following are the environments that I have experience in.</p>

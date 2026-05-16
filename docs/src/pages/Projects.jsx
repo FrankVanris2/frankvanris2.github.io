@@ -53,6 +53,11 @@ const Projects = () => {
 
             <div className="current-project-section">
                 <h2 className="section-title">🚧 Project Currently Under Development</h2>
+                <p className="centered">Worked on projects will be added here.</p>
+            </div>
+
+            <div className="maintained-projects-section">
+                <h2 className="section-title">🔧 Maintained Projects</h2>
                 <ProjectCard
                     title="Intouch365 Resource Management Planner"
                     tags={resourceManagementTechStack}
@@ -60,10 +65,7 @@ const Projects = () => {
                     imageSrc="/ResourceManagementPlanner.png"
                     alignment="right"
                 />
-            </div>
 
-            <div className="maintained-projects-section">
-                <h2 className="section-title">🔧 Maintained Projects</h2>
                 <ProjectCard 
                     title="Intouch365 Support Portal"
                     tags={supportTechStack}
