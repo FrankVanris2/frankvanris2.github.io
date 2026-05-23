@@ -19,6 +19,7 @@ const Experience = () => {
                     <h2>🏅 Certifications</h2>
                     <p>Here are some certifications and achievements I've accomplished:</p>
                     <ul>
+                        <li><strong>Power Platform Developer Associate PL-400</strong></li>
                         <li><strong>Azure Fundamentals AZ-900</strong></li>
                         <li><strong>Most Promising Innovation - Ready Tensor</strong></li>
                     </ul>

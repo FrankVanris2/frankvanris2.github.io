@@ -1,5 +1,18 @@
 export const updates = [
     {
+        id: 23,
+        date: "23/05/2026",
+        title: "Exam Update!",
+        content: [
+            "I am very proud and excited to announce that I have successfully passed the Power Platform Developer Associate Exam! I have been studying for more than 6 months to accomplish it. And boyyy no one told me how crazy difficult it was going to be. I had to really put in the work to understand the concepts and the logic behind the questions. I had to do a lot of practice exams, and I also had to do a lot of studying on the documentation as well. But all that hard work paid off, and I am very happy with the result.",
+            "This is one of those achievements where you can look back and say, I did that! I am honestly blessed to have an amazing and supportive team that was there pushing me to successfully aim higher everyday. I can now officially say that I am a Power Platform Developer!",
+            "As of right now the AZ-900 and the PL-400 were the only exams that I needed to complete. There was indeed one more, but that is being removed from the Microsoft Learn Page sadly. If there is a replacement for that one in the future I will certainly be studying for that. But as for now I can safely say with confidence, that I am officially done with certificate exams!", 
+            "Passing these exams were one of my end goals of 2026, and I am happty to have completed it with enough time to put more effort into other goals of mine. I don't know what else the future holds for me, but I know it is super bright! Anyways those are all the updates for now. Tot Weekend Allemaal!"
+        ],
+        image: null
+
+    },
+    {
         id: 22,
         date: "16/05/2026",
         title: "Amazing Week",
