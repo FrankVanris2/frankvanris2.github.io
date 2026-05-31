@@ -1,5 +1,18 @@
 export const updates = [
     {
+        id: 24,
+        date: "31/05/2026",
+        title: "End of May Update!",
+        content: [
+            "Well guys it is officially the end of May and I have to say, it has been a crazy month ya'll! First I officially released an agent within our the Intouch365 Website, I officially passed my PL-400 exam, and have almost completed the work for the WhatsApp Integration! I have done so much this month and its a breath of fresh air to see it all happen in one month.", 
+            "Now I don't really talk about my personal goals or \"financial\" goals within these updates, but I have been heavily hard at work in increasing my savings and paying off my student loan debts in full. I currently have under 5000 in student loan debts, wich thankfully isn't a lot but to me it is like a big weight on my chest. I am thankful to say that I plan to fully pay of my student loan debts by the end of September!",
+            "Not only that, but I have also reached my savings financial goal for the year! And I did it earlier than ever, meaning I have a new financial savings goal to reach. I am very excited to see how much I can officially save at the end of this year. Now as for my personal project, \" The Game \" it has been sadly slow this past week and the week before due to me studying ferociously on my Exam.",
+            "But now that the exam is done, I plan to put more effort into it and hopefully have a playable demo by the end of the year. I am very excited to share more updates on it in the future, and I also plan to share a video of the gameplay as well in the near future, so stay tuned for that!",
+            "Anyways those are all the updates for this week, I hope you all have a great week! Tot weekend allemaal!"
+        ],
+        image: null
+    },
+    {
         id: 23,
         date: "23/05/2026",
         title: "Exam Update!",
