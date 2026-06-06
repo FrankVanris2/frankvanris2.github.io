@@ -1,5 +1,16 @@
 export const updates = [
     {
+        id: 25,
+        date: "06/06/2026",
+        title: "Copilot Webinar and more!",
+        content: [
+            "This week has been a intensely busy week, but I am very happy to share that we successfully hosted our second webinar related to Copilot and showcased 2 demos that didn't fail! It was a huge success and we had a lot of attendees. We had a lot of great feedback from the attendees as well, which is always nice to hear. Due to the high attendance we believe doing these kinds of Webinars can improve the likelihood of our clients to use our products and also to learn more about the Power Platform in general. We are planning to do more webinars in the future, so stay tuned for that!",
+            "As for other projects, I have been hard at work into debugging some issues within one of our internal projects that I can't say to much about, we plan to give more news and information about it in the near future. I have also been doing some work on the WhatsApp integration that I mentioned in the previous updates, and I am happy to say that we are making good progress! I am very excited to share more updates on it in the future, and I can't wait to see how our clients will use it once it's released! We currently have been using it for our own internal use when it comes to sending confirmation messages for webinars and such.",
+            "Another exciting update is that I finally started to work on my game again! Not as much as I would like to, but enough has been added into the game where most of the main functionality is almost all together now. I hope to give more exciting new updates on it at somepoint in the near future. As for now I hope you guys have an amazing weekend! Tot weekend allemaal!"
+        ],
+        image: null
+    },
+    {
         id: 24,
         date: "31/05/2026",
         title: "End of May Update!",

@@ -1,8 +1,15 @@
-import React, { useState } from 'react';
+import React from 'react';
 import '../styles/Navbar.css';
 import { Link } from 'react-router-dom';
 import ContactIcon from './ContactIcon';
 import PhoneDropdown from './PhoneDropdown';
+
+const navLinks = [
+    { to: '/about_me', label: 'About' },
+    { to: '/experience', label: 'Experience' },
+    { to: '/projects', label: 'Projects' },
+    { to: '/weekly_updates', label: 'Blogs' },
+];
 
 const Navbar = () => {
     return (
@@ -25,10 +32,11 @@ const Navbar = () => {
 
             <div className="navbar-center">
                 <ul className="nav-links">
-                    <li><Link to="/about_me">About</Link></li>
-                    <li><Link to="/experience">Experience</Link></li>
-                    <li><Link to="/projects">Projects</Link></li>
-                    <li><Link to="/weekly_updates">Blogs</Link></li>
+                    {navLinks.map((link) => (
+                        <li key={link.to}>
+                            <Link to={link.to}>{link.label}</Link>
+                        </li>
+                    ))}
                 </ul>
             </div>
 
