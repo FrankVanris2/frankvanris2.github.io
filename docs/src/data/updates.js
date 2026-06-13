@@ -1,5 +1,16 @@
 export const updates = [
     {
+        id: 26,
+        date: "13/06/2026",
+        title: "Busy week",
+        content: [
+            "This week was a busy one. I worked on some very impressive features that I can’t really talk about yet because they’re planned for a future product at Intouch365. I had to ensure that the feature was presentable within a demo, and thankfully with my persistence we were able to showcase it to our clients and our future customers.",
+            "I also finished my A1 Dutch classes and did really well, although the classes were quite slow in my opinion I still learned quite a lot; I can confidently say my Nederlands has improved significantly over the past 10 months. And I plan to continue my Nederlands learning journey by doing the A2 class later this coming fall. Anyways those are all the updates I have for now, I hope to have some more next week",
+            " Tot weekend allemaal!"        
+        ],
+        image: null
+    },
+    {
         id: 25,
         date: "06/06/2026",
         title: "Copilot Webinar and more!",
