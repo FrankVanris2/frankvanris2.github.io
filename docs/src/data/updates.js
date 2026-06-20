@@ -1,5 +1,15 @@
 export const updates = [
     {
+        id: 27,
+        date: "20/06/2026",
+        title: "Short Update",
+        content: [
+            "Hey guys, I'm going to keep this update shorter than usual, nothing crazy really happened this past week besides fixing up a feature I developed a couple of weeks ago. I also have been working on the Game I've been developing still but I have been off and on. I've been also studying for another certificate related to C# the programming language so that I can become more proficient in that language.",
+            "I also have been saving up a lot of money for my upcoming trip back to the United States to say hello to my family, girlfried, and friends. I hope to come next week with more exciting updates, but for right now this is all I have to share. I hope you all have a great week! Tot weekend allemaal!"
+        ],
+        image: null
+    },
+    {
         id: 26,
         date: "13/06/2026",
         title: "Busy week",
