@@ -1,5 +1,17 @@
 export const updates = [
     {
+        id: 28,
+        date: "27/06/2026",
+        title: "The Heat Wave",
+        content: [
+            "Maaan my energy depleted this week! I couldn't do a lot at all after my day at work. I don't know if you guys know but I'm currently living in a apartment with no air conditioning at the moment. And since the heat wave is hitting most of Europe, it is also hitting us in the Netherlands. It's honestly making me unproductive these past couple of days. Yesterday I didn't even practice some C++ or continue developing my game. I just wanted to cool down.",
+            "I'm still feeling unproductive as well today, but thankfully I am making a post on my website which doesn't take a lot of brain power or muscle power to do. I have to admit though I made some good progress this week with internal projects at Intouch365. Again I can't really say to much about these projects yet, but it's honestly a breath of fresh air to see decent progress without any kind of faults.",
+            "I also have been studying for a small certificate which is related to C# the programming language. I want to become more proficient in languages that I deem important to my career. And I believe C# is one of those languages. I plan to finish this certificate by the end of August. I also purchased a book around C# and that will be my next book that I will be reading after completing \"The Hitchhiker's Guide to the Galaxy\".",
+            "Anyways those are all my updates for this week, I hope to have more updates the following week. Tot Weekend Allemaal!"
+        ],
+        image: null
+    },
+    {
         id: 27,
         date: "20/06/2026",
         title: "Short Update",
