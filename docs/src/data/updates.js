@@ -1,5 +1,15 @@
 export const updates = [
     {
+        id: 29,
+        date: "04/07/2026",
+        title: "Short update",
+        content: [
+            "Hey everyone, just a short update for this week. I have been working on some internal projects still that I can't fully talk about at the moment, but I am making good progress. Not only that but this week I went to Breda Live with my colleagues for the first time! It was really cool to see some amazing artists, such as Bente, Chef'Special, and Charly Lownoise & Mental Theo.",
+            "It was honestly a blast and I can't wait to go again next year! I also have been working hard on my game and I've made some really good progress at the moment with it. I plan to share more updates about it in the near future. I honestly need to focus on the art at somepoint but that will be for later. Anyways those are all my updates, tot morgen allemaal!"
+        ],
+        image: null
+    },
+    {
         id: 28,
         date: "27/06/2026",
         title: "The Heat Wave",
