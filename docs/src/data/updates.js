@@ -1,5 +1,17 @@
 export const updates = [
     {
+        id: 30,
+        date: "12/07/2026",
+        title: "Exciting Week",
+        content: [
+            "This week has been very VERY exciting! I have been working on some internal projects that I can fully talk about now! Our new WhatsApp Integrated Custom Channel! I did mention it once before but there wasn't a lot of updates on it.",
+            "Now I can officially say that the WhatsApp Integrated Custom Channel is officially getting close to its release and we have a lot of features that it comes with. You can learn more about in within the Projects Tab.",
+            "As for my other projects I am still working on my game and although it is slow in the making, I am learning a ton about how peer to peer communication between devices is essential for keeping the connection between 2 players consistent, Multiplayer Synchronization is no joke.",
+            "I plan to share more news on the game in the future but for now I will keep it on the low. Anyways that is all I have for this week! Tot Volgende Weekend Allemaal!"
+        ],
+        image: null
+    },
+    {
         id: 29,
         date: "04/07/2026",
         title: "Short update",
