@@ -4,6 +4,17 @@ import ProjectCard from '../components/ProjectCard';
 
 const Projects = () => {
 
+    // Intouch365 WhatsApp Integrated Custom Channel for CI-J
+    const whatsAppCustomChannelDescription =[
+        "The WhatsApp Integrated Custom Channel for Dynamics 365 Customer Insights - Journeys (CI-J) enables seamless, real-time customer communication directly inside marketing journeys.",
+        "Built using a robust backend architecture of Dataverse Plugins and Azure Functions, the channel processes data asynchronously to maintain optimal platform speed. Outbound messages travel from Dataverse via REST APIs to the Meta Graph API, while inbound replies and delivery status updates are instantly funneled back through an Azure Function Webhook listener.",
+        "Designed to streamline the marketer's workflow, the channel features a native template management tool inside a Model-Driven App. Users can create, modify, and delete marketing or utility message templates directly in Dynamics without needing a Meta Business Manager account.",
+        "Because incoming responses are captured and logged on the customer record's timeline, organizations can craft highly personalized, responsive journeys that react instantly to individual consumer behavior.",
+        "Thanks to the Integration of Copilot Channels, as an experimental feature you can configure a Copilot Agent to answer questions of a user when they respond back to a WhatsApp Integrated Message, and we are actively looking into using activity-tables to expand the possibilites of enhancing Journey workflows and actions.",
+        "Overall, the WhatsApp Integrated Custom Chnannel for CI-J is a powerful tool that enables organizations to engage with their customers in a more personalized and efficient way, while also providing marketers with the tools they need to create effective marketing campaigns. The release of this channel will be presented in the coming months."
+    ];
+    const whatsAppCustomChannelTechStack = ["Microsoft Dynamics 365 Customer Insights - Journeys","Microsoft Power Apps", "Dataverse", "Dataverse Plugins", "Azure Functions", "REST APIs", "Meta Graph API", "Model-Driven App", "JavaScript", "C#", "XML"]
+
     // Resource Management System
     const resourceManagementDescription = [
         "The Resource Management Planner is a comprehensive Model-Driven App that is used to keep track of the current resources of the company. It is built using Microsoft Power Apps, Power Automate, and Dataverse. The app allows users to easily manage and keep track of their hours within projects and assignments related to those projects.",
@@ -53,7 +64,13 @@ const Projects = () => {
 
             <div className="current-project-section">
                 <h2 className="section-title">🚧 Project Currently Under Development</h2>
-                <p className="centered">Worked on projects will be added here.</p>
+                <ProjectCard
+                    title="Intouch365 WhatsApp Integrated Custom Channel for CI-J"
+                    tags={whatsAppCustomChannelTechStack}
+                    description={whatsAppCustomChannelDescription}
+                    imageSrc="/intouch_meta.png"
+                    alignment="left"
+                />
             </div>
 
             <div className="maintained-projects-section">
