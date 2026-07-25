@@ -1,5 +1,17 @@
 export const updates = [
     {
+        id: 31,
+        date: "25/07/2026",
+        title: "Late Update",
+        content: [
+            "Hey everyone, last week I was pretty busy in the weekend so I wasn't able to make an update. So here I am making an update for what I have been doing these past 2 weeks! So as you know the WhatsApp Custom Channel integration is coming closer to its release and I have been doing a lot of internal refactoring to ensure everything is following modern practices so that it's production ready.",
+            "I also now have a mentor at my company! He's been really helping me build a stronger foundation within my technical career and showing me new ways in how I should be serializing and deserializing payloads between different requests. And also sharing me the importance of handling null references within the code, along with doing proper unit tests within the code. This coming week he will be guiding my through the importance of abstract references and abstract class usage.",
+            "Besides that, I have still been hard at work on the game I am developing, no new crazy updates but a lot of bug fixing on my side. Peer to Peer communication for a multiplayer game is no joke, I seriously need to properly handle the way a single item is communicated between both players and even more. But I'll do my best to share more news in the future about it.",
+            "I also started to read a new book called \"Head First C#\". The goal with this book is to get a greater foundation within the C# language, and this book seems to offer a lot! especially when it comes to projects. I think I'll be better aquinted with C# after reading this book and I hope to share my knowledge journey with you guys in the coming weeks. Anyways those are all the updates I have for now, I hope you all have a great week! Tot Volgende Weekend Allemaal!"
+        ], 
+        image: null
+    },
+    {
         id: 30,
         date: "12/07/2026",
         title: "Exciting Week",
