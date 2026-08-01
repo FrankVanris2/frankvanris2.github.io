@@ -1,5 +1,17 @@
 export const updates = [
     {
+        id: 32,
+        date: "01/08/2026",
+        title: "Great Progress!",
+        content: [
+            "Hello everyone! this past week has been very productive, I have been working hard on a lot of new internal projects along with polishing and refining the CI-J WhatsApp Integration Custom Channel. We are currently working on a version 2.0 for the <strong> Intouch365 Support Portal </strong> and we plan to release it when we finalized all the major features.",
+            "I also made some really good progress on the game I have been developing. Last week I had problems with peer-to-peer communication between both the client side and the server side. Items when a player would drop them wasn't working accordingly along with the Inventory UI and door mechanics. I had to add multiplayer synchronizers and spawners to ensure everything worked accordingly.",
+            "Thankfully now, all of these issues have been resolved and now I can continue my development in refining the multiplayer mechanics and adding server lists within the game. This week we at <strong> Intouch365 </strong> also moved into our new offices! Starting next week we will be officially working at a new location and it is very exciting.",
+            "I plan to share more updates in the coming weeks, but for now I will say that I hope you all have a great week! Tot Volgende Weekend Allemaal!"
+        ],
+        image: null
+    },
+    {
         id: 31,
         date: "25/07/2026",
         title: "Late Update",
