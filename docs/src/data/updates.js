@@ -1,5 +1,17 @@
 export const updates = [
     {
+        id: 33,
+        date: "08/08/2026",
+        title: "Nieuwe Kantoor!",
+        content: [
+            "We at <strong> Intouch365 </strong> have officially moved into our new office! It is a very exciting time for us and we are very happy to be in a new location. The new office is located near the Station of Breda, It took us roughly one whole day to move everything from our previous location to the new office. It was a lot of teamwork to get everything in one place but we accomplished it!",
+            "We also have WiFi, and a new coffee machine! something we all need to start the day... Well for me not the coffee part but ABSOLUTELY the WiFi. After we officially moved into our new office, I have been hard at work on our new extensions for the WhatsApp Integration Custom Channel. I've also been working on some internal projects as well that I won't speak to much about yet, (hint: it's related to a previous Intouch365 project I've worked on). I plan to share more updates on these projects in the near future, but for now I will keep it on the low.",
+            "As for my personal projects, this past week I've been working here and there on the game but I have to admit, I've been a bit slow here and there. I've been mainly reading the <strong> Head First C# </strong. book in order to become more proficient within the C# language. I have also been doing a lot of C++ practice lately on new topics such as Template Specializations, Template Concepts, and Static Assertions. I plan to continue my studies on these topics and I hope to share more updates on my personal projects in the near future.",
+            "Anyways those are all the updates I have for now, I hope you all have a great week! Tot Volgende Weekend Allemaal!"
+        ],
+        image: null
+    },
+    {
         id: 32,
         date: "01/08/2026",
         title: "Great Progress!",
