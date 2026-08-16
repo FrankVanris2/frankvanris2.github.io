@@ -1,5 +1,16 @@
 export const updates = [
     {
+        id: 34,
+        date: "16/08/2026",
+        title: "Final Update before my vacation!",
+        content: [
+            "Hi Everyone! Will be making a quick and short update for this week. Nothing exciting has happened that I'll be able to talk about today. I did create a new power automate for our Education Template that we are selling to our clients. It allows for an opportunity record to be created based on form details that a prospective student submits. And correlates the opportunity record with numerous tables.",
+            "I will be adding the Data Validation/QR Code Scanner/Opportunity Creation Power Automate as a new project within my projects page of the website. I've also been making good progress on the Support Portal V2 and the Resource Management planner that we have at Intouch365. We will be releasing the 1.5 update for the Model-Driven Application later this week.",
+            "Anyways I think thats all the updates I have for this week, I won't be making a post for the next 2 weeks while I'm on vacation but I'll be sure to bring all my updates for what I do when I'm back in the United States for two weeks! Tot Volgende Weekend Allemaal!"
+        ],
+        image: null
+    },
+    {
         id: 33,
         date: "08/08/2026",
         title: "Nieuwe Kantoor!",
